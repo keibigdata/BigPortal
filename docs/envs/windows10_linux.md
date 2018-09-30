@@ -20,4 +20,20 @@ Microsoft Store에서 다운로드 중... 100%
 Ubuntu 로캘을 Windows 로캘(ko-KR)과 일치하도록 설정할까요?
 기본 로캘은 en_US입니다.
 계속하려면 "y" 입력: y
+기본 UNIX 사용자 계정을 만드세요. 사용자 이름이 Windows 사용자 이름과 일치할 필요는 없습니다.
+자세한 내용은 https://aka.ms/wslusers를 참조하세요.
+새로운 UNIX 사용자 이름 입력: pi
+Enter new UNIX password:
+Retype new UNIX password:
+passwd: password updated successfully
+설치 성공!
+https://aka.ms/wsldocs에서 설명서를 볼 수 있습니다.
+
+C:\WINDOWS\system32>bash
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
+
+pi@HappyHome:/mnt/c/Windows/System32$ sudo apt-get update && sudo apt-get install -y openjdk-8-jdk g++ build-essential autoconf automake
+[sudo] password for pi:
+...
 ~~~
