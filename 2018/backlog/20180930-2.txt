@@ -1,0 +1,2064 @@
+pi@HappyHome:/mnt/e/Data/win10linux/mecab$ bash <(curl -s https://raw.githubusercontent.com/konlpy/konlpy/master/scripts/mecab.sh)
+Installing MeCab-ko
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0
+100 1380k  100 1380k    0     0   145k      0  0:00:09  0:00:09 --:--:--  231k
+mecab-0.996-ko-0.9.1/
+mecab-0.996-ko-0.9.1/config.h.in
+mecab-0.996-ko-0.9.1/Makefile.train
+mecab-0.996-ko-0.9.1/ChangeLog
+mecab-0.996-ko-0.9.1/configure
+mecab-0.996-ko-0.9.1/swig/
+mecab-0.996-ko-0.9.1/swig/version.h.in
+mecab-0.996-ko-0.9.1/swig/Makefile
+mecab-0.996-ko-0.9.1/swig/version.h
+mecab-0.996-ko-0.9.1/swig/MeCab.i
+mecab-0.996-ko-0.9.1/mkinstalldirs
+mecab-0.996-ko-0.9.1/mecab-config.in
+mecab-0.996-ko-0.9.1/configure.in
+mecab-0.996-ko-0.9.1/mecab.iss.in
+mecab-0.996-ko-0.9.1/aclocal.m4
+mecab-0.996-ko-0.9.1/mecabrc.in
+mecab-0.996-ko-0.9.1/INSTALL
+mecab-0.996-ko-0.9.1/AUTHORS
+mecab-0.996-ko-0.9.1/example/
+mecab-0.996-ko-0.9.1/example/example_lattice.c
+mecab-0.996-ko-0.9.1/example/example.cpp
+mecab-0.996-ko-0.9.1/example/example_lattice.cpp
+mecab-0.996-ko-0.9.1/example/example.c
+mecab-0.996-ko-0.9.1/example/thread_test.cpp
+mecab-0.996-ko-0.9.1/BSD
+mecab-0.996-ko-0.9.1/README
+mecab-0.996-ko-0.9.1/install-sh
+mecab-0.996-ko-0.9.1/README.md
+mecab-0.996-ko-0.9.1/CHANGES.md
+mecab-0.996-ko-0.9.1/missing
+mecab-0.996-ko-0.9.1/GPL
+mecab-0.996-ko-0.9.1/man/
+mecab-0.996-ko-0.9.1/man/mecab.1
+mecab-0.996-ko-0.9.1/man/Makefile.in
+mecab-0.996-ko-0.9.1/man/Makefile.am
+mecab-0.996-ko-0.9.1/config.rpath
+mecab-0.996-ko-0.9.1/doc/
+mecab-0.996-ko-0.9.1/doc/feature.html
+mecab-0.996-ko-0.9.1/doc/mecab.css
+mecab-0.996-ko-0.9.1/doc/doxygen/
+mecab-0.996-ko-0.9.1/doc/doxygen/namespacemembers.html
+mecab-0.996-ko-0.9.1/doc/doxygen/structmecab__node__t.html
+mecab-0.996-ko-0.9.1/doc/doxygen/doxygen.png
+mecab-0.996-ko-0.9.1/doc/doxygen/classMeCab_1_1Lattice.html
+mecab-0.996-ko-0.9.1/doc/doxygen/tabs.css
+mecab-0.996-ko-0.9.1/doc/doxygen/tab_b.gif
+mecab-0.996-ko-0.9.1/doc/doxygen/namespaces.html
+mecab-0.996-ko-0.9.1/doc/doxygen/structmecab__dictionary__info__t-members.html
+mecab-0.996-ko-0.9.1/doc/doxygen/classes.html
+mecab-0.996-ko-0.9.1/doc/doxygen/tab_s.png
+mecab-0.996-ko-0.9.1/doc/doxygen/tab_b.png
+mecab-0.996-ko-0.9.1/doc/doxygen/namespacemembers_type.html
+mecab-0.996-ko-0.9.1/doc/doxygen/classMeCab_1_1Tagger-members.html
+mecab-0.996-ko-0.9.1/doc/doxygen/bc_s.png
+mecab-0.996-ko-0.9.1/doc/doxygen/globals_func.html
+mecab-0.996-ko-0.9.1/doc/doxygen/open.png
+mecab-0.996-ko-0.9.1/doc/doxygen/tab_h.png
+mecab-0.996-ko-0.9.1/doc/doxygen/globals_eval.html
+mecab-0.996-ko-0.9.1/doc/doxygen/structmecab__path__t.html
+mecab-0.996-ko-0.9.1/doc/doxygen/classMeCab_1_1Tagger.html
+mecab-0.996-ko-0.9.1/doc/doxygen/doxygen.css
+mecab-0.996-ko-0.9.1/doc/doxygen/namespacemembers_func.html
+mecab-0.996-ko-0.9.1/doc/doxygen/structmecab__path__t-members.html
+mecab-0.996-ko-0.9.1/doc/doxygen/tab_l.gif
+mecab-0.996-ko-0.9.1/doc/doxygen/files.html
+mecab-0.996-ko-0.9.1/doc/doxygen/functions.html
+mecab-0.996-ko-0.9.1/doc/doxygen/tab_a.png
+mecab-0.996-ko-0.9.1/doc/doxygen/mecab_8h_source.html
+mecab-0.996-ko-0.9.1/doc/doxygen/globals_defs.html
+mecab-0.996-ko-0.9.1/doc/doxygen/nav_h.png
+mecab-0.996-ko-0.9.1/doc/doxygen/functions_vars.html
+mecab-0.996-ko-0.9.1/doc/doxygen/structmecab__dictionary__info__t.html
+mecab-0.996-ko-0.9.1/doc/doxygen/mecab_8h.html
+mecab-0.996-ko-0.9.1/doc/doxygen/nav_f.png
+mecab-0.996-ko-0.9.1/doc/doxygen/globals.html
+mecab-0.996-ko-0.9.1/doc/doxygen/structmecab__node__t-members.html
+mecab-0.996-ko-0.9.1/doc/doxygen/tab_r.gif
+mecab-0.996-ko-0.9.1/doc/doxygen/mecab_8h-source.html
+mecab-0.996-ko-0.9.1/doc/doxygen/classMeCab_1_1Model.html
+mecab-0.996-ko-0.9.1/doc/doxygen/classMeCab_1_1Model-members.html
+mecab-0.996-ko-0.9.1/doc/doxygen/globals_type.html
+mecab-0.996-ko-0.9.1/doc/doxygen/namespaceMeCab.html
+mecab-0.996-ko-0.9.1/doc/doxygen/annotated.html
+mecab-0.996-ko-0.9.1/doc/doxygen/classMeCab_1_1Lattice-members.html
+mecab-0.996-ko-0.9.1/doc/doxygen/functions_func.html
+mecab-0.996-ko-0.9.1/doc/doxygen/closed.png
+mecab-0.996-ko-0.9.1/doc/doxygen/index.html
+mecab-0.996-ko-0.9.1/doc/learn.html
+mecab-0.996-ko-0.9.1/doc/dic.html
+mecab-0.996-ko-0.9.1/doc/libmecab.html
+mecab-0.996-ko-0.9.1/doc/dic-detail.html
+mecab-0.996-ko-0.9.1/doc/unk.html
+mecab-0.996-ko-0.9.1/doc/bindings.html
+mecab-0.996-ko-0.9.1/doc/result.png
+mecab-0.996-ko-0.9.1/doc/flow.png
+mecab-0.996-ko-0.9.1/doc/Makefile.in
+mecab-0.996-ko-0.9.1/doc/feature.png
+mecab-0.996-ko-0.9.1/doc/partial.html
+mecab-0.996-ko-0.9.1/doc/posid.html
+mecab-0.996-ko-0.9.1/doc/en/
+mecab-0.996-ko-0.9.1/doc/en/bindings.html
+mecab-0.996-ko-0.9.1/doc/Makefile.am
+mecab-0.996-ko-0.9.1/doc/mecab.html
+mecab-0.996-ko-0.9.1/doc/index.html
+mecab-0.996-ko-0.9.1/doc/format.html
+mecab-0.996-ko-0.9.1/doc/soft.html
+mecab-0.996-ko-0.9.1/LGPL
+mecab-0.996-ko-0.9.1/ltmain.sh
+mecab-0.996-ko-0.9.1/Makefile.in
+mecab-0.996-ko-0.9.1/COPYING
+mecab-0.996-ko-0.9.1/Makefile.am
+mecab-0.996-ko-0.9.1/config.guess
+mecab-0.996-ko-0.9.1/src/
+mecab-0.996-ko-0.9.1/src/connector.cpp
+mecab-0.996-ko-0.9.1/src/param.h
+mecab-0.996-ko-0.9.1/src/darts.h
+mecab-0.996-ko-0.9.1/src/lbfgs.h
+mecab-0.996-ko-0.9.1/src/param.cpp
+mecab-0.996-ko-0.9.1/src/connector.h
+mecab-0.996-ko-0.9.1/src/learner_tagger.h
+mecab-0.996-ko-0.9.1/src/nbest_generator.cpp
+mecab-0.996-ko-0.9.1/src/ucs.h
+mecab-0.996-ko-0.9.1/src/nbest_generator.h
+mecab-0.996-ko-0.9.1/src/string_buffer.cpp
+mecab-0.996-ko-0.9.1/src/context_id.h
+mecab-0.996-ko-0.9.1/src/viterbi.h
+mecab-0.996-ko-0.9.1/src/mecab-system-eval.cpp
+mecab-0.996-ko-0.9.1/src/dictionary_compiler.cpp
+mecab-0.996-ko-0.9.1/src/eval.cpp
+mecab-0.996-ko-0.9.1/src/mecab-cost-train.cpp
+mecab-0.996-ko-0.9.1/src/iconv_utils.h
+mecab-0.996-ko-0.9.1/src/common.h
+mecab-0.996-ko-0.9.1/src/char_property.h
+mecab-0.996-ko-0.9.1/src/learner_node.h
+mecab-0.996-ko-0.9.1/src/ucstable.h
+mecab-0.996-ko-0.9.1/src/context_id.cpp
+mecab-0.996-ko-0.9.1/src/writer.cpp
+mecab-0.996-ko-0.9.1/src/libmecab.cpp
+mecab-0.996-ko-0.9.1/src/tokenizer.h
+mecab-0.996-ko-0.9.1/src/utils.h
+mecab-0.996-ko-0.9.1/src/tagger.cpp
+mecab-0.996-ko-0.9.1/src/tokenizer.cpp
+mecab-0.996-ko-0.9.1/src/dictionary.h
+mecab-0.996-ko-0.9.1/src/feature_index.cpp
+mecab-0.996-ko-0.9.1/src/mecab.h
+mecab-0.996-ko-0.9.1/src/feature_index.h
+mecab-0.996-ko-0.9.1/src/dictionary_rewriter.h
+mecab-0.996-ko-0.9.1/src/dictionary_rewriter.cpp
+mecab-0.996-ko-0.9.1/src/mecab-test-gen.cpp
+mecab-0.996-ko-0.9.1/src/viterbi.cpp
+mecab-0.996-ko-0.9.1/src/mmap.h
+mecab-0.996-ko-0.9.1/src/mecab.cpp
+mecab-0.996-ko-0.9.1/src/make.bat
+mecab-0.996-ko-0.9.1/src/utils.cpp
+mecab-0.996-ko-0.9.1/src/dictionary.cpp
+mecab-0.996-ko-0.9.1/src/mecab-dict-gen.cpp
+mecab-0.996-ko-0.9.1/src/freelist.h
+mecab-0.996-ko-0.9.1/src/learner_tagger.cpp
+mecab-0.996-ko-0.9.1/src/Makefile.in
+mecab-0.996-ko-0.9.1/src/thread.h
+mecab-0.996-ko-0.9.1/src/dictionary_generator.cpp
+mecab-0.996-ko-0.9.1/src/scoped_ptr.h
+mecab-0.996-ko-0.9.1/src/writer.h
+mecab-0.996-ko-0.9.1/src/lbfgs.cpp
+mecab-0.996-ko-0.9.1/src/string_buffer.h
+mecab-0.996-ko-0.9.1/src/stream_wrapper.h
+mecab-0.996-ko-0.9.1/src/winmain.h
+mecab-0.996-ko-0.9.1/src/Makefile.am
+mecab-0.996-ko-0.9.1/src/learner.cpp
+mecab-0.996-ko-0.9.1/src/char_property.cpp
+mecab-0.996-ko-0.9.1/src/iconv_utils.cpp
+mecab-0.996-ko-0.9.1/src/mecab-dict-index.cpp
+mecab-0.996-ko-0.9.1/src/Makefile.msvc.in
+mecab-0.996-ko-0.9.1/config.sub
+mecab-0.996-ko-0.9.1/tests/
+mecab-0.996-ko-0.9.1/tests/t9/
+mecab-0.996-ko-0.9.1/tests/t9/dic.csv
+mecab-0.996-ko-0.9.1/tests/t9/dicrc
+mecab-0.996-ko-0.9.1/tests/t9/test.gld
+mecab-0.996-ko-0.9.1/tests/t9/test
+mecab-0.996-ko-0.9.1/tests/t9/mkdic.pl
+mecab-0.996-ko-0.9.1/tests/t9/matrix.def
+mecab-0.996-ko-0.9.1/tests/t9/unk.def
+mecab-0.996-ko-0.9.1/tests/t9/char.def
+mecab-0.996-ko-0.9.1/tests/t9/ipadic.pl
+mecab-0.996-ko-0.9.1/tests/cost-train/
+mecab-0.996-ko-0.9.1/tests/cost-train/ipa.train
+mecab-0.996-ko-0.9.1/tests/cost-train/ipa.test
+mecab-0.996-ko-0.9.1/tests/cost-train/seed/
+mecab-0.996-ko-0.9.1/tests/cost-train/seed/dic.csv
+mecab-0.996-ko-0.9.1/tests/cost-train/seed/dicrc
+mecab-0.996-ko-0.9.1/tests/cost-train/seed/rewrite.def
+mecab-0.996-ko-0.9.1/tests/cost-train/seed/matrix.def
+mecab-0.996-ko-0.9.1/tests/cost-train/seed/feature.def
+mecab-0.996-ko-0.9.1/tests/cost-train/seed/unk.def
+mecab-0.996-ko-0.9.1/tests/cost-train/seed/char.def
+mecab-0.996-ko-0.9.1/tests/eval/
+mecab-0.996-ko-0.9.1/tests/eval/test.gld
+mecab-0.996-ko-0.9.1/tests/eval/answer
+mecab-0.996-ko-0.9.1/tests/eval/system
+mecab-0.996-ko-0.9.1/tests/ngram/
+mecab-0.996-ko-0.9.1/tests/ngram/dic.csv
+mecab-0.996-ko-0.9.1/tests/ngram/dicrc
+mecab-0.996-ko-0.9.1/tests/ngram/test.gld
+mecab-0.996-ko-0.9.1/tests/ngram/test
+mecab-0.996-ko-0.9.1/tests/ngram/matrix.def
+mecab-0.996-ko-0.9.1/tests/ngram/unk.def
+mecab-0.996-ko-0.9.1/tests/ngram/char.def
+mecab-0.996-ko-0.9.1/tests/katakana/
+mecab-0.996-ko-0.9.1/tests/katakana/dic.csv
+mecab-0.996-ko-0.9.1/tests/katakana/dicrc
+mecab-0.996-ko-0.9.1/tests/katakana/test.gld
+mecab-0.996-ko-0.9.1/tests/katakana/test
+mecab-0.996-ko-0.9.1/tests/katakana/matrix.def
+mecab-0.996-ko-0.9.1/tests/katakana/unk.def
+mecab-0.996-ko-0.9.1/tests/katakana/char.def
+mecab-0.996-ko-0.9.1/tests/run-eval.sh
+mecab-0.996-ko-0.9.1/tests/run-dics.sh
+mecab-0.996-ko-0.9.1/tests/shiin/
+mecab-0.996-ko-0.9.1/tests/shiin/dic.csv
+mecab-0.996-ko-0.9.1/tests/shiin/dicrc
+mecab-0.996-ko-0.9.1/tests/shiin/test.gld
+mecab-0.996-ko-0.9.1/tests/shiin/test
+mecab-0.996-ko-0.9.1/tests/shiin/mkdic.pl
+mecab-0.996-ko-0.9.1/tests/shiin/matrix.def
+mecab-0.996-ko-0.9.1/tests/shiin/unk.def
+mecab-0.996-ko-0.9.1/tests/shiin/char.def
+mecab-0.996-ko-0.9.1/tests/autolink/
+mecab-0.996-ko-0.9.1/tests/autolink/dic.csv
+mecab-0.996-ko-0.9.1/tests/autolink/dicrc
+mecab-0.996-ko-0.9.1/tests/autolink/test.gld
+mecab-0.996-ko-0.9.1/tests/autolink/test
+mecab-0.996-ko-0.9.1/tests/autolink/matrix.def
+mecab-0.996-ko-0.9.1/tests/autolink/unk.def
+mecab-0.996-ko-0.9.1/tests/autolink/char.def
+mecab-0.996-ko-0.9.1/tests/run-cost-train.sh
+mecab-0.996-ko-0.9.1/tests/latin/
+mecab-0.996-ko-0.9.1/tests/latin/dic.csv
+mecab-0.996-ko-0.9.1/tests/latin/dicrc
+mecab-0.996-ko-0.9.1/tests/latin/test.gld
+mecab-0.996-ko-0.9.1/tests/latin/test
+mecab-0.996-ko-0.9.1/tests/latin/matrix.def
+mecab-0.996-ko-0.9.1/tests/latin/unk.def
+mecab-0.996-ko-0.9.1/tests/latin/char.def
+mecab-0.996-ko-0.9.1/tests/Makefile.in
+mecab-0.996-ko-0.9.1/tests/Makefile.am
+mecab-0.996-ko-0.9.1/tests/chartype/
+mecab-0.996-ko-0.9.1/tests/chartype/dic.csv
+mecab-0.996-ko-0.9.1/tests/chartype/dicrc
+mecab-0.996-ko-0.9.1/tests/chartype/test.gld
+mecab-0.996-ko-0.9.1/tests/chartype/test
+mecab-0.996-ko-0.9.1/tests/chartype/matrix.def
+mecab-0.996-ko-0.9.1/tests/chartype/unk.def
+mecab-0.996-ko-0.9.1/tests/chartype/char.def
+mecab-0.996-ko-0.9.1/NEWS
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables...
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking for style of include used by make... GNU
+checking dependency style of gcc... none
+checking for g++... g++
+checking whether we are using the GNU C++ compiler... yes
+checking whether g++ accepts -g... yes
+checking dependency style of g++... none
+checking how to run the C preprocessor... gcc -E
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking whether gcc needs -traditional... no
+checking whether make sets $(MAKE)... (cached) yes
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+checking how to print strings... printf
+checking for a sed that does not truncate output... /bin/sed
+checking for fgrep... /bin/grep -F
+checking for ld used by gcc... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1572864
+checking whether the shell understands some XSI constructs... yes
+checking whether the shell understands "+="... yes
+checking how to convert x86_64-unknown-linux-gnu file names to x86_64-unknown-linux-gnu format... func_convert_file_noop
+checking how to convert x86_64-unknown-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for /usr/bin/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for dlltool... dlltool
+checking how to associate runtime and link libraries... printf %s\n
+checking for ar... ar
+checking for archiver @FILE support... @
+checking for strip... strip
+checking for ranlib... ranlib
+checking command to parse /usr/bin/nm -B output from gcc object... ok
+checking for sysroot... no
+checking for mt... mt
+checking if mt is a manifest tool... no
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if gcc supports -fno-rtti -fno-exceptions... no
+checking for gcc option to produce PIC... -fPIC -DPIC
+checking if gcc PIC flag -fPIC -DPIC works... yes
+checking if gcc static flag -static works... yes
+checking if gcc supports -c -o file.o... yes
+checking if gcc supports -c -o file.o... (cached) yes
+checking whether the gcc linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... yes
+checking how to run the C++ preprocessor... g++ -E
+checking for ld used by g++... /usr/bin/ld -m elf_x86_64
+checking if the linker (/usr/bin/ld -m elf_x86_64) is GNU ld... yes
+checking whether the g++ linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking for g++ option to produce PIC... -fPIC -DPIC
+checking if g++ PIC flag -fPIC -DPIC works... yes
+checking if g++ static flag -static works... yes
+checking if g++ supports -c -o file.o... yes
+checking if g++ supports -c -o file.o... (cached) yes
+checking whether the g++ linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking dynamic linker characteristics... (cached) GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking for library containing strerror... none required
+checking whether byte ordering is bigendian... no
+checking for ld used by GCC... /usr/bin/ld -m elf_x86_64
+checking if the linker (/usr/bin/ld -m elf_x86_64) is GNU ld... yes
+checking for shared library run path origin... done
+checking for iconv... yes
+checking for working iconv... yes
+checking for iconv declaration...
+         extern size_t iconv (iconv_t cd, char * *inbuf, size_t *inbytesleft, char * *outbuf, size_t *outbytesleft);
+checking for ANSI C header files... (cached) yes
+checking for an ANSI C-conforming const... yes
+checking whether byte ordering is bigendian... (cached) no
+checking for string.h... (cached) yes
+checking for stdlib.h... (cached) yes
+checking for unistd.h... (cached) yes
+checking fcntl.h usability... yes
+checking fcntl.h presence... yes
+checking for fcntl.h... yes
+checking for stdint.h... (cached) yes
+checking for sys/stat.h... (cached) yes
+checking sys/mman.h usability... yes
+checking sys/mman.h presence... yes
+checking for sys/mman.h... yes
+checking sys/times.h usability... yes
+checking sys/times.h presence... yes
+checking for sys/times.h... yes
+checking for sys/types.h... (cached) yes
+checking dirent.h usability... yes
+checking dirent.h presence... yes
+checking for dirent.h... yes
+checking ctype.h usability... yes
+checking ctype.h presence... yes
+checking for ctype.h... yes
+checking for sys/types.h... (cached) yes
+checking io.h usability... no
+checking io.h presence... no
+checking for io.h... no
+checking windows.h usability... no
+checking windows.h presence... no
+checking for windows.h... no
+checking pthread.h usability... yes
+checking pthread.h presence... yes
+checking for pthread.h... yes
+checking for off_t... yes
+checking for size_t... yes
+checking size of char... 1
+checking size of short... 2
+checking size of int... 4
+checking size of long... 8
+checking size of long long... 8
+checking size of size_t... 8
+checking for size_t... (cached) yes
+checking for unsigned long long int... yes
+checking for stdlib.h... (cached) yes
+checking for unistd.h... (cached) yes
+checking for sys/param.h... yes
+checking for getpagesize... yes
+checking for working mmap... yes
+checking for main in -lstdc++... yes
+checking for pthread_create in -lpthread... yes
+checking for pthread_join in -lpthread... yes
+checking for getenv... yes
+checking for opendir... yes
+checking whether make is GNU Make... yes
+checking if g++ supports stl <vector> (required)... yes
+checking if g++ supports stl <list> (required)... yes
+checking if g++ supports stl <map> (required)... yes
+checking if g++ supports stl <set> (required)... yes
+checking if g++ supports stl <queue> (required)... yes
+checking if g++ supports stl <functional> (required)... yes
+checking if g++ supports stl <algorithm> (required)... yes
+checking if g++ supports stl <string> (required)... yes
+checking if g++ supports stl <iostream> (required)... yes
+checking if g++ supports stl <sstream> (required)... yes
+checking if g++ supports stl <fstream> (required)... yes
+checking if g++ supports template <class T> (required)... yes
+checking if g++ supports const_cast<> (required)... yes
+checking if g++ supports static_cast<> (required)... yes
+checking if g++ supports reinterpret_cast<> (required)... yes
+checking if g++ supports namespaces (required) ... yes
+checking if g++ supports __thread (optional)... yes
+checking if g++ supports template <class T> (required)... yes
+checking if g++ supports GCC native atomic operations (optional)... yes
+checking if g++ supports OSX native atomic operations (optional)... no
+checking if g++ environment provides all required features... yes
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating src/Makefile
+config.status: creating src/Makefile.msvc
+config.status: creating man/Makefile
+config.status: creating doc/Makefile
+config.status: creating tests/Makefile
+config.status: creating swig/version.h
+config.status: creating mecab.iss
+config.status: creating mecab-config
+config.status: creating mecabrc
+config.status: creating config.h
+config.status: executing depfiles commands
+config.status: executing libtool commands
+config.status: executing default commands
+make  all-recursive
+make[1]: Entering directory '/tmp/mecab-0.996-ko-0.9.1'
+Making all in src
+make[2]: Entering directory '/tmp/mecab-0.996-ko-0.9.1/src'
+/bin/bash ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I. -I.. -DDIC_VERSION=102   -DMECAB_DEFAULT_RC="\"/usr/local/etc/mecabrc\""    -O3 -Wall  -c -o viterbi.lo viterbi.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -DDIC_VERSION=102 -DMECAB_DEFAULT_RC=\"/usr/local/etc/mecabrc\" -O3 -Wall -c viterbi.cpp  -fPIC -DPIC -o .libs/viterbi.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -DDIC_VERSION=102 -DMECAB_DEFAULT_RC=\"/usr/local/etc/mecabrc\" -O3 -Wall -c viterbi.cpp -o viterbi.o >/dev/null 2>&1
+/bin/bash ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I. -I.. -DDIC_VERSION=102   -DMECAB_DEFAULT_RC="\"/usr/local/etc/mecabrc\""    -O3 -Wall  -c -o tagger.lo tagger.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -DDIC_VERSION=102 -DMECAB_DEFAULT_RC=\"/usr/local/etc/mecabrc\" -O3 -Wall -c tagger.cpp  -fPIC -DPIC -o .libs/tagger.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -DDIC_VERSION=102 -DMECAB_DEFAULT_RC=\"/usr/local/etc/mecabrc\" -O3 -Wall -c tagger.cpp -o tagger.o >/dev/null 2>&1
+/bin/bash ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I. -I.. -DDIC_VERSION=102   -DMECAB_DEFAULT_RC="\"/usr/local/etc/mecabrc\""    -O3 -Wall  -c -o utils.lo utils.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -DDIC_VERSION=102 -DMECAB_DEFAULT_RC=\"/usr/local/etc/mecabrc\" -O3 -Wall -c utils.cpp  -fPIC -DPIC -o .libs/utils.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -DDIC_VERSION=102 -DMECAB_DEFAULT_RC=\"/usr/local/etc/mecabrc\" -O3 -Wall -c utils.cpp -o utils.o >/dev/null 2>&1
+/bin/bash ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I. -I.. -DDIC_VERSION=102   -DMECAB_DEFAULT_RC="\"/usr/local/etc/mecabrc\""    -O3 -Wall  -c -o eval.lo eval.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -DDIC_VERSION=102 -DMECAB_DEFAULT_RC=\"/usr/local/etc/mecabrc\" -O3 -Wall -c eval.cpp  -fPIC -DPIC -o .libs/eval.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -DDIC_VERSION=102 -DMECAB_DEFAULT_RC=\"/usr/local/etc/mecabrc\" -O3 -Wall -c eval.cpp -o eval.o >/dev/null 2>&1
+/bin/bash ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I. -I.. -DDIC_VERSION=102   -DMECAB_DEFAULT_RC="\"/usr/local/etc/mecabrc\""    -O3 -Wall  -c -o iconv_utils.lo iconv_utils.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -DDIC_VERSION=102 -DMECAB_DEFAULT_RC=\"/usr/local/etc/mecabrc\" -O3 -Wall -c iconv_utils.cpp  -fPIC -DPIC -o .libs/iconv_utils.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -DDIC_VERSION=102 -DMECAB_DEFAULT_RC=\"/usr/local/etc/mecabrc\" -O3 -Wall -c iconv_utils.cpp -o iconv_utils.o >/dev/null 2>&1
+/bin/bash ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I. -I.. -DDIC_VERSION=102   -DMECAB_DEFAULT_RC="\"/usr/local/etc/mecabrc\""    -O3 -Wall  -c -o dictionary_rewriter.lo dictionary_rewriter.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -DDIC_VERSION=102 -DMECAB_DEFAULT_RC=\"/usr/local/etc/mecabrc\" -O3 -Wall -c dictionary_rewriter.cpp  -fPIC -DPIC -o .libs/dictionary_rewriter.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -DDIC_VERSION=102 -DMECAB_DEFAULT_RC=\"/usr/local/etc/mecabrc\" -O3 -Wall -c dictionary_rewriter.cpp -o dictionary_rewriter.o >/dev/null 2>&1
+/bin/bash ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I. -I.. -DDIC_VERSION=102   -DMECAB_DEFAULT_RC="\"/usr/local/etc/mecabrc\""    -O3 -Wall  -c -o dictionary_generator.lo dictionary_generator.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -DDIC_VERSION=102 -DMECAB_DEFAULT_RC=\"/usr/local/etc/mecabrc\" -O3 -Wall -c dictionary_generator.cpp  -fPIC -DPIC -o .libs/dictionary_generator.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -DDIC_VERSION=102 -DMECAB_DEFAULT_RC=\"/usr/local/etc/mecabrc\" -O3 -Wall -c dictionary_generator.cpp -o dictionary_generator.o >/dev/null 2>&1
+/bin/bash ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I. -I.. -DDIC_VERSION=102   -DMECAB_DEFAULT_RC="\"/usr/local/etc/mecabrc\""    -O3 -Wall  -c -o dictionary_compiler.lo dictionary_compiler.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -DDIC_VERSION=102 -DMECAB_DEFAULT_RC=\"/usr/local/etc/mecabrc\" -O3 -Wall -c dictionary_compiler.cpp  -fPIC -DPIC -o .libs/dictionary_compiler.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -DDIC_VERSION=102 -DMECAB_DEFAULT_RC=\"/usr/local/etc/mecabrc\" -O3 -Wall -c dictionary_compiler.cpp -o dictionary_compiler.o >/dev/null 2>&1
+/bin/bash ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I. -I.. -DDIC_VERSION=102   -DMECAB_DEFAULT_RC="\"/usr/local/etc/mecabrc\""    -O3 -Wall  -c -o context_id.lo context_id.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -DDIC_VERSION=102 -DMECAB_DEFAULT_RC=\"/usr/local/etc/mecabrc\" -O3 -Wall -c context_id.cpp  -fPIC -DPIC -o .libs/context_id.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -DDIC_VERSION=102 -DMECAB_DEFAULT_RC=\"/usr/local/etc/mecabrc\" -O3 -Wall -c context_id.cpp -o context_id.o >/dev/null 2>&1
+/bin/bash ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I. -I.. -DDIC_VERSION=102   -DMECAB_DEFAULT_RC="\"/usr/local/etc/mecabrc\""    -O3 -Wall  -c -o connector.lo connector.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -DDIC_VERSION=102 -DMECAB_DEFAULT_RC=\"/usr/local/etc/mecabrc\" -O3 -Wall -c connector.cpp  -fPIC -DPIC -o .libs/connector.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -DDIC_VERSION=102 -DMECAB_DEFAULT_RC=\"/usr/local/etc/mecabrc\" -O3 -Wall -c connector.cpp -o connector.o >/dev/null 2>&1
+/bin/bash ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I. -I.. -DDIC_VERSION=102   -DMECAB_DEFAULT_RC="\"/usr/local/etc/mecabrc\""    -O3 -Wall  -c -o nbest_generator.lo nbest_generator.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -DDIC_VERSION=102 -DMECAB_DEFAULT_RC=\"/usr/local/etc/mecabrc\" -O3 -Wall -c nbest_generator.cpp  -fPIC -DPIC -o .libs/nbest_generator.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -DDIC_VERSION=102 -DMECAB_DEFAULT_RC=\"/usr/local/etc/mecabrc\" -O3 -Wall -c nbest_generator.cpp -o nbest_generator.o >/dev/null 2>&1
+/bin/bash ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I. -I.. -DDIC_VERSION=102   -DMECAB_DEFAULT_RC="\"/usr/local/etc/mecabrc\""    -O3 -Wall  -c -o writer.lo writer.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -DDIC_VERSION=102 -DMECAB_DEFAULT_RC=\"/usr/local/etc/mecabrc\" -O3 -Wall -c writer.cpp  -fPIC -DPIC -o .libs/writer.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -DDIC_VERSION=102 -DMECAB_DEFAULT_RC=\"/usr/local/etc/mecabrc\" -O3 -Wall -c writer.cpp -o writer.o >/dev/null 2>&1
+/bin/bash ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I. -I.. -DDIC_VERSION=102   -DMECAB_DEFAULT_RC="\"/usr/local/etc/mecabrc\""    -O3 -Wall  -c -o string_buffer.lo string_buffer.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -DDIC_VERSION=102 -DMECAB_DEFAULT_RC=\"/usr/local/etc/mecabrc\" -O3 -Wall -c string_buffer.cpp  -fPIC -DPIC -o .libs/string_buffer.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -DDIC_VERSION=102 -DMECAB_DEFAULT_RC=\"/usr/local/etc/mecabrc\" -O3 -Wall -c string_buffer.cpp -o string_buffer.o >/dev/null 2>&1
+/bin/bash ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I. -I.. -DDIC_VERSION=102   -DMECAB_DEFAULT_RC="\"/usr/local/etc/mecabrc\""    -O3 -Wall  -c -o param.lo param.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -DDIC_VERSION=102 -DMECAB_DEFAULT_RC=\"/usr/local/etc/mecabrc\" -O3 -Wall -c param.cpp  -fPIC -DPIC -o .libs/param.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -DDIC_VERSION=102 -DMECAB_DEFAULT_RC=\"/usr/local/etc/mecabrc\" -O3 -Wall -c param.cpp -o param.o >/dev/null 2>&1
+/bin/bash ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I. -I.. -DDIC_VERSION=102   -DMECAB_DEFAULT_RC="\"/usr/local/etc/mecabrc\""    -O3 -Wall  -c -o tokenizer.lo tokenizer.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -DDIC_VERSION=102 -DMECAB_DEFAULT_RC=\"/usr/local/etc/mecabrc\" -O3 -Wall -c tokenizer.cpp  -fPIC -DPIC -o .libs/tokenizer.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -DDIC_VERSION=102 -DMECAB_DEFAULT_RC=\"/usr/local/etc/mecabrc\" -O3 -Wall -c tokenizer.cpp -o tokenizer.o >/dev/null 2>&1
+/bin/bash ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I. -I.. -DDIC_VERSION=102   -DMECAB_DEFAULT_RC="\"/usr/local/etc/mecabrc\""    -O3 -Wall  -c -o char_property.lo char_property.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -DDIC_VERSION=102 -DMECAB_DEFAULT_RC=\"/usr/local/etc/mecabrc\" -O3 -Wall -c char_property.cpp  -fPIC -DPIC -o .libs/char_property.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -DDIC_VERSION=102 -DMECAB_DEFAULT_RC=\"/usr/local/etc/mecabrc\" -O3 -Wall -c char_property.cpp -o char_property.o >/dev/null 2>&1
+/bin/bash ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I. -I.. -DDIC_VERSION=102   -DMECAB_DEFAULT_RC="\"/usr/local/etc/mecabrc\""    -O3 -Wall  -c -o dictionary.lo dictionary.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -DDIC_VERSION=102 -DMECAB_DEFAULT_RC=\"/usr/local/etc/mecabrc\" -O3 -Wall -c dictionary.cpp  -fPIC -DPIC -o .libs/dictionary.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -DDIC_VERSION=102 -DMECAB_DEFAULT_RC=\"/usr/local/etc/mecabrc\" -O3 -Wall -c dictionary.cpp -o dictionary.o >/dev/null 2>&1
+/bin/bash ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I. -I.. -DDIC_VERSION=102   -DMECAB_DEFAULT_RC="\"/usr/local/etc/mecabrc\""    -O3 -Wall  -c -o feature_index.lo feature_index.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -DDIC_VERSION=102 -DMECAB_DEFAULT_RC=\"/usr/local/etc/mecabrc\" -O3 -Wall -c feature_index.cpp  -fPIC -DPIC -o .libs/feature_index.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -DDIC_VERSION=102 -DMECAB_DEFAULT_RC=\"/usr/local/etc/mecabrc\" -O3 -Wall -c feature_index.cpp -o feature_index.o >/dev/null 2>&1
+/bin/bash ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I. -I.. -DDIC_VERSION=102   -DMECAB_DEFAULT_RC="\"/usr/local/etc/mecabrc\""    -O3 -Wall  -c -o lbfgs.lo lbfgs.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -DDIC_VERSION=102 -DMECAB_DEFAULT_RC=\"/usr/local/etc/mecabrc\" -O3 -Wall -c lbfgs.cpp  -fPIC -DPIC -o .libs/lbfgs.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -DDIC_VERSION=102 -DMECAB_DEFAULT_RC=\"/usr/local/etc/mecabrc\" -O3 -Wall -c lbfgs.cpp -o lbfgs.o >/dev/null 2>&1
+/bin/bash ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I. -I.. -DDIC_VERSION=102   -DMECAB_DEFAULT_RC="\"/usr/local/etc/mecabrc\""    -O3 -Wall  -c -o learner_tagger.lo learner_tagger.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -DDIC_VERSION=102 -DMECAB_DEFAULT_RC=\"/usr/local/etc/mecabrc\" -O3 -Wall -c learner_tagger.cpp  -fPIC -DPIC -o .libs/learner_tagger.o
+learner_tagger.cpp:25:7: warning: 'char* MeCab::{anonymous}::mystrdup(const string&)' defined but not used [-Wunused-function]
+ char *mystrdup(const std::string &str) {
+       ^
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -DDIC_VERSION=102 -DMECAB_DEFAULT_RC=\"/usr/local/etc/mecabrc\" -O3 -Wall -c learner_tagger.cpp -o learner_tagger.o >/dev/null 2>&1
+/bin/bash ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I. -I.. -DDIC_VERSION=102   -DMECAB_DEFAULT_RC="\"/usr/local/etc/mecabrc\""    -O3 -Wall  -c -o learner.lo learner.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -DDIC_VERSION=102 -DMECAB_DEFAULT_RC=\"/usr/local/etc/mecabrc\" -O3 -Wall -c learner.cpp  -fPIC -DPIC -o .libs/learner.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -DDIC_VERSION=102 -DMECAB_DEFAULT_RC=\"/usr/local/etc/mecabrc\" -O3 -Wall -c learner.cpp -o learner.o >/dev/null 2>&1
+/bin/bash ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I. -I.. -DDIC_VERSION=102   -DMECAB_DEFAULT_RC="\"/usr/local/etc/mecabrc\""    -O3 -Wall  -c -o libmecab.lo libmecab.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -DDIC_VERSION=102 -DMECAB_DEFAULT_RC=\"/usr/local/etc/mecabrc\" -O3 -Wall -c libmecab.cpp  -fPIC -DPIC -o .libs/libmecab.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -DDIC_VERSION=102 -DMECAB_DEFAULT_RC=\"/usr/local/etc/mecabrc\" -O3 -Wall -c libmecab.cpp -o libmecab.o >/dev/null 2>&1
+/bin/bash ../libtool --tag=CXX   --mode=link g++  -O3 -Wall  -no-undefined -version-info 2:0:0  -o libmecab.la -rpath /usr/local/lib viterbi.lo tagger.lo utils.lo eval.lo iconv_utils.lo dictionary_rewriter.lo dictionary_generator.lo dictionary_compiler.lo context_id.lo connector.lo nbest_generator.lo writer.lo string_buffer.lo param.lo tokenizer.lo char_property.lo dictionary.lo feature_index.lo lbfgs.lo learner_tagger.lo learner.lo libmecab.lo  -lpthread -lpthread  -lstdc++
+libtool: link: g++  -fPIC -DPIC -shared -nostdlib /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbeginS.o  .libs/viterbi.o .libs/tagger.o .libs/utils.o .libs/eval.o .libs/iconv_utils.o .libs/dictionary_rewriter.o .libs/dictionary_generator.o .libs/dictionary_compiler.o .libs/context_id.o .libs/connector.o .libs/nbest_generator.o .libs/writer.o .libs/string_buffer.o .libs/param.o .libs/tokenizer.o .libs/char_property.o .libs/dictionary.o .libs/feature_index.o .libs/lbfgs.o .libs/learner_tagger.o .libs/learner.o .libs/libmecab.o   -lpthread -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. -lstdc++ -lm -lc -lgcc_s /usr/lib/gcc/x86_64-linux-gnu/5/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o  -O3   -Wl,-soname -Wl,libmecab.so.2 -o .libs/libmecab.so.2.0.0
+libtool: link: (cd ".libs" && rm -f "libmecab.so.2" && ln -s "libmecab.so.2.0.0" "libmecab.so.2")
+libtool: link: (cd ".libs" && rm -f "libmecab.so" && ln -s "libmecab.so.2.0.0" "libmecab.so")
+libtool: link: ar cru .libs/libmecab.a  viterbi.o tagger.o utils.o eval.o iconv_utils.o dictionary_rewriter.o dictionary_generator.o dictionary_compiler.o context_id.o connector.o nbest_generator.o writer.o string_buffer.o param.o tokenizer.o char_property.o dictionary.o feature_index.o lbfgs.o learner_tagger.o learner.o libmecab.o
+ar: `u' modifier ignored since `D' is the default (see `U')
+libtool: link: ranlib .libs/libmecab.a
+libtool: link: ( cd ".libs" && rm -f "libmecab.la" && ln -s "../libmecab.la" "libmecab.la" )
+g++ -DHAVE_CONFIG_H -I. -I.. -DDIC_VERSION=102   -DMECAB_DEFAULT_RC="\"/usr/local/etc/mecabrc\""    -O3 -Wall  -c -o mecab.o mecab.cpp
+/bin/bash ../libtool --tag=CXX   --mode=link g++  -O3 -Wall    -o mecab mecab.o libmecab.la -lpthread -lpthread  -lstdc++
+libtool: link: g++ -O3 -Wall -o .libs/mecab mecab.o  ./.libs/libmecab.so -lpthread -lstdc++
+g++ -DHAVE_CONFIG_H -I. -I.. -DDIC_VERSION=102   -DMECAB_DEFAULT_RC="\"/usr/local/etc/mecabrc\""    -O3 -Wall  -c -o mecab-dict-index.o mecab-dict-index.cpp
+/bin/bash ../libtool --tag=CXX   --mode=link g++  -O3 -Wall    -o mecab-dict-index mecab-dict-index.o libmecab.la -lpthread -lpthread  -lstdc++
+libtool: link: g++ -O3 -Wall -o .libs/mecab-dict-index mecab-dict-index.o  ./.libs/libmecab.so -lpthread -lstdc++
+g++ -DHAVE_CONFIG_H -I. -I.. -DDIC_VERSION=102   -DMECAB_DEFAULT_RC="\"/usr/local/etc/mecabrc\""    -O3 -Wall  -c -o mecab-dict-gen.o mecab-dict-gen.cpp
+/bin/bash ../libtool --tag=CXX   --mode=link g++  -O3 -Wall    -o mecab-dict-gen mecab-dict-gen.o libmecab.la -lpthread -lpthread  -lstdc++
+libtool: link: g++ -O3 -Wall -o .libs/mecab-dict-gen mecab-dict-gen.o  ./.libs/libmecab.so -lpthread -lstdc++
+g++ -DHAVE_CONFIG_H -I. -I.. -DDIC_VERSION=102   -DMECAB_DEFAULT_RC="\"/usr/local/etc/mecabrc\""    -O3 -Wall  -c -o mecab-cost-train.o mecab-cost-train.cpp
+/bin/bash ../libtool --tag=CXX   --mode=link g++  -O3 -Wall    -o mecab-cost-train mecab-cost-train.o libmecab.la -lpthread -lpthread  -lstdc++
+libtool: link: g++ -O3 -Wall -o .libs/mecab-cost-train mecab-cost-train.o  ./.libs/libmecab.so -lpthread -lstdc++
+g++ -DHAVE_CONFIG_H -I. -I.. -DDIC_VERSION=102   -DMECAB_DEFAULT_RC="\"/usr/local/etc/mecabrc\""    -O3 -Wall  -c -o mecab-system-eval.o mecab-system-eval.cpp
+/bin/bash ../libtool --tag=CXX   --mode=link g++  -O3 -Wall    -o mecab-system-eval mecab-system-eval.o libmecab.la -lpthread -lpthread  -lstdc++
+libtool: link: g++ -O3 -Wall -o .libs/mecab-system-eval mecab-system-eval.o  ./.libs/libmecab.so -lpthread -lstdc++
+g++ -DHAVE_CONFIG_H -I. -I.. -DDIC_VERSION=102   -DMECAB_DEFAULT_RC="\"/usr/local/etc/mecabrc\""    -O3 -Wall  -c -o mecab-test-gen.o mecab-test-gen.cpp
+/bin/bash ../libtool --tag=CXX   --mode=link g++  -O3 -Wall    -o mecab-test-gen mecab-test-gen.o libmecab.la -lpthread -lpthread  -lstdc++
+libtool: link: g++ -O3 -Wall -o .libs/mecab-test-gen mecab-test-gen.o  ./.libs/libmecab.so -lpthread -lstdc++
+make[2]: Leaving directory '/tmp/mecab-0.996-ko-0.9.1/src'
+Making all in man
+make[2]: Entering directory '/tmp/mecab-0.996-ko-0.9.1/man'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/tmp/mecab-0.996-ko-0.9.1/man'
+Making all in doc
+make[2]: Entering directory '/tmp/mecab-0.996-ko-0.9.1/doc'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/tmp/mecab-0.996-ko-0.9.1/doc'
+Making all in tests
+make[2]: Entering directory '/tmp/mecab-0.996-ko-0.9.1/tests'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/tmp/mecab-0.996-ko-0.9.1/tests'
+make[2]: Entering directory '/tmp/mecab-0.996-ko-0.9.1'
+make[2]: Leaving directory '/tmp/mecab-0.996-ko-0.9.1'
+make[1]: Leaving directory '/tmp/mecab-0.996-ko-0.9.1'
+Making check in src
+make[1]: Entering directory '/tmp/mecab-0.996-ko-0.9.1/src'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/tmp/mecab-0.996-ko-0.9.1/src'
+Making check in man
+make[1]: Entering directory '/tmp/mecab-0.996-ko-0.9.1/man'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/tmp/mecab-0.996-ko-0.9.1/man'
+Making check in doc
+make[1]: Entering directory '/tmp/mecab-0.996-ko-0.9.1/doc'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/tmp/mecab-0.996-ko-0.9.1/doc'
+Making check in tests
+make[1]: Entering directory '/tmp/mecab-0.996-ko-0.9.1/tests'
+make  check-TESTS
+make[2]: Entering directory '/tmp/mecab-0.996-ko-0.9.1/tests'
+./pos-id.def is not found. minimum setting is used
+reading ./unk.def ... 2
+emitting double-array: 100% |###########################################|
+./model.def is not found. skipped.
+./pos-id.def is not found. minimum setting is used
+reading ./dic.csv ... 177
+emitting double-array: 100% |###########################################|
+reading ./matrix.def ... 178x178
+emitting matrix      : 100% |###########################################|
+
+done!
+./pos-id.def is not found. minimum setting is used
+reading ./unk.def ... 2
+emitting double-array: 100% |###########################################|
+./model.def is not found. skipped.
+./pos-id.def is not found. minimum setting is used
+reading ./dic.csv ... 83
+emitting double-array: 100% |###########################################|
+reading ./matrix.def ... 84x84
+emitting matrix      : 100% |###########################################|
+
+done!
+./pos-id.def is not found. minimum setting is used
+reading ./unk.def ... 2
+emitting double-array: 100% |###########################################|
+./model.def is not found. skipped.
+./pos-id.def is not found. minimum setting is used
+reading ./dic.csv ... 450
+emitting double-array: 100% |###########################################|
+reading ./matrix.def ... 1x1
+
+done!
+./pos-id.def is not found. minimum setting is used
+reading ./unk.def ... 2
+emitting double-array: 100% |###########################################|
+./model.def is not found. skipped.
+./pos-id.def is not found. minimum setting is used
+reading ./dic.csv ... 162
+emitting double-array: 100% |###########################################|
+reading ./matrix.def ... 3x3
+emitting matrix      : 100% |###########################################|
+
+done!
+./pos-id.def is not found. minimum setting is used
+reading ./unk.def ... 2
+emitting double-array: 100% |###########################################|
+./model.def is not found. skipped.
+./pos-id.def is not found. minimum setting is used
+reading ./dic.csv ... 4
+emitting double-array: 100% |###########################################|
+reading ./matrix.def ... 1x1
+
+done!
+./pos-id.def is not found. minimum setting is used
+reading ./unk.def ... 11
+emitting double-array: 100% |###########################################|
+./model.def is not found. skipped.
+./pos-id.def is not found. minimum setting is used
+reading ./dic.csv ... 1
+reading ./matrix.def ... 1x1
+
+done!
+./pos-id.def is not found. minimum setting is used
+reading ./unk.def ... 2
+emitting double-array: 100% |###########################################|
+./model.def is not found. skipped.
+./pos-id.def is not found. minimum setting is used
+reading ./dic.csv ... 1
+reading ./matrix.def ... 1x1
+
+done!
+PASS: run-dics.sh
+PASS: run-eval.sh
+seed/pos-id.def is not found. minimum setting is used
+reading seed/unk.def ... 40
+emitting double-array: 100% |###########################################|
+seed/model.def is not found. skipped.
+seed/pos-id.def is not found. minimum setting is used
+reading seed/dic.csv ... 4335
+emitting double-array: 100% |###########################################|
+reading seed/matrix.def ... 1x1
+
+done!
+reading corpus ...
+Number of sentences: 34
+Number of features:  64108
+eta:                 0.00005
+freq:                1
+eval-size:           6
+unk-eval-size:       4
+threads:             1
+charset:             EUC-JP
+C(sigma^2):          1.00000
+
+iter=0 err=1.00000 F=0.35771 target=2406.28355 diff=1.00000
+iter=1 err=0.97059 F=0.65652 target=1484.25231 diff=0.38318
+iter=2 err=0.91176 F=0.79331 target=863.32765 diff=0.41834
+iter=3 err=0.85294 F=0.89213 target=596.72480 diff=0.30881
+iter=4 err=0.61765 F=0.95467 target=336.30744 diff=0.43641
+iter=5 err=0.50000 F=0.96702 target=246.53039 diff=0.26695
+iter=6 err=0.35294 F=0.95472 target=188.93963 diff=0.23361
+iter=7 err=0.20588 F=0.99106 target=168.62665 diff=0.10751
+iter=8 err=0.05882 F=0.99777 target=158.64865 diff=0.05917
+iter=9 err=0.08824 F=0.99665 target=154.14530 diff=0.02839
+iter=10 err=0.08824 F=0.99665 target=151.94257 diff=0.01429
+iter=11 err=0.02941 F=0.99888 target=147.20825 diff=0.03116
+iter=12 err=0.00000 F=1.00000 target=147.34956 diff=0.00096
+iter=13 err=0.02941 F=0.99888 target=146.32592 diff=0.00695
+iter=14 err=0.00000 F=1.00000 target=145.77299 diff=0.00378
+iter=15 err=0.02941 F=0.99888 target=145.24641 diff=0.00361
+iter=16 err=0.00000 F=1.00000 target=144.96490 diff=0.00194
+iter=17 err=0.02941 F=0.99888 target=144.90246 diff=0.00043
+iter=18 err=0.00000 F=1.00000 target=144.75959 diff=0.00099
+iter=19 err=0.00000 F=1.00000 target=144.71727 diff=0.00029
+iter=20 err=0.00000 F=1.00000 target=144.66337 diff=0.00037
+iter=21 err=0.00000 F=1.00000 target=144.61349 diff=0.00034
+iter=22 err=0.00000 F=1.00000 target=144.62987 diff=0.00011
+iter=23 err=0.00000 F=1.00000 target=144.60060 diff=0.00020
+iter=24 err=0.00000 F=1.00000 target=144.59125 diff=0.00006
+iter=25 err=0.00000 F=1.00000 target=144.58619 diff=0.00004
+iter=26 err=0.00000 F=1.00000 target=144.58219 diff=0.00003
+iter=27 err=0.00000 F=1.00000 target=144.58059 diff=0.00001
+
+Done! writing model file ...
+model-ipadic.c1.0.f1.model is not a binary model. reopen it as text mode...
+reading seed/unk.def ... 40
+reading seed/dic.csv ... 4335
+emitting model-ipadic.c1.0.f1.dic/left-id.def/ model-ipadic.c1.0.f1.dic/right-id.def
+emitting model-ipadic.c1.0.f1.dic/unk.def ... 40
+emitting model-ipadic.c1.0.f1.dic/dic.csv ... 4335
+emitting matrix      : 100% |###########################################|
+copying seed/char.def to model-ipadic.c1.0.f1.dic/char.def
+copying seed/rewrite.def to model-ipadic.c1.0.f1.dic/rewrite.def
+copying seed/dicrc to model-ipadic.c1.0.f1.dic/dicrc
+copying seed/feature.def to model-ipadic.c1.0.f1.dic/feature.def
+copying model-ipadic.c1.0.f1.model to model-ipadic.c1.0.f1.dic/model.def
+
+done!
+model-ipadic.c1.0.f1.dic/pos-id.def is not found. minimum setting is used
+reading model-ipadic.c1.0.f1.dic/unk.def ... 40
+emitting double-array: 100% |###########################################|
+model-ipadic.c1.0.f1.dic/pos-id.def is not found. minimum setting is used
+reading model-ipadic.c1.0.f1.dic/dic.csv ... 4335
+emitting double-array: 100% |###########################################|
+reading model-ipadic.c1.0.f1.dic/matrix.def ... 346x346
+emitting matrix      : 100% |###########################################|
+
+done!
+              precision          recall         F
+LEVEL 0:    12.8959(57/442) 11.8998(57/479) 12.3779
+LEVEL 1:    12.2172(54/442) 11.2735(54/479) 11.7264
+LEVEL 2:    11.7647(52/442) 10.8559(52/479) 11.2921
+LEVEL 4:    11.7647(52/442) 10.8559(52/479) 11.2921
+PASS: run-cost-train.sh
+==================
+All 3 tests passed
+==================
+make[2]: Leaving directory '/tmp/mecab-0.996-ko-0.9.1/tests'
+make[1]: Leaving directory '/tmp/mecab-0.996-ko-0.9.1/tests'
+make[1]: Entering directory '/tmp/mecab-0.996-ko-0.9.1'
+make[1]: Leaving directory '/tmp/mecab-0.996-ko-0.9.1'
+Making install in src
+make[1]: Entering directory '/tmp/mecab-0.996-ko-0.9.1/src'
+make[2]: Entering directory '/tmp/mecab-0.996-ko-0.9.1/src'
+test -z "/usr/local/lib" || /bin/mkdir -p "/usr/local/lib"
+ /bin/bash ../libtool   --mode=install /usr/bin/install -c   libmecab.la '/usr/local/lib'
+libtool: install: /usr/bin/install -c .libs/libmecab.so.2.0.0 /usr/local/lib/libmecab.so.2.0.0
+libtool: install: (cd /usr/local/lib && { ln -s -f libmecab.so.2.0.0 libmecab.so.2 || { rm -f libmecab.so.2 && ln -s libmecab.so.2.0.0 libmecab.so.2; }; })
+libtool: install: (cd /usr/local/lib && { ln -s -f libmecab.so.2.0.0 libmecab.so || { rm -f libmecab.so && ln -s libmecab.so.2.0.0 libmecab.so; }; })
+libtool: install: /usr/bin/install -c .libs/libmecab.lai /usr/local/lib/libmecab.la
+libtool: install: /usr/bin/install -c .libs/libmecab.a /usr/local/lib/libmecab.a
+libtool: install: chmod 644 /usr/local/lib/libmecab.a
+libtool: install: ranlib /usr/local/lib/libmecab.a
+libtool: finish: PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin:/sbin" ldconfig -n /usr/local/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/local/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the `-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the `LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the `LD_RUN_PATH' environment variable
+     during linking
+   - use the `-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to `/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+test -z "/usr/local/bin" || /bin/mkdir -p "/usr/local/bin"
+  /bin/bash ../libtool   --mode=install /usr/bin/install -c mecab '/usr/local/bin'
+libtool: install: /usr/bin/install -c .libs/mecab /usr/local/bin/mecab
+test -z "/usr/local/libexec/mecab" || /bin/mkdir -p "/usr/local/libexec/mecab"
+  /bin/bash ../libtool   --mode=install /usr/bin/install -c mecab-dict-index mecab-dict-gen mecab-cost-train mecab-system-eval mecab-test-gen '/usr/local/libexec/mecab'
+libtool: install: /usr/bin/install -c .libs/mecab-dict-index /usr/local/libexec/mecab/mecab-dict-index
+libtool: install: /usr/bin/install -c .libs/mecab-dict-gen /usr/local/libexec/mecab/mecab-dict-gen
+libtool: install: /usr/bin/install -c .libs/mecab-cost-train /usr/local/libexec/mecab/mecab-cost-train
+libtool: install: /usr/bin/install -c .libs/mecab-system-eval /usr/local/libexec/mecab/mecab-system-eval
+libtool: install: /usr/bin/install -c .libs/mecab-test-gen /usr/local/libexec/mecab/mecab-test-gen
+test -z "/usr/local/include" || /bin/mkdir -p "/usr/local/include"
+ /usr/bin/install -c -m 644 mecab.h '/usr/local/include'
+make[2]: Leaving directory '/tmp/mecab-0.996-ko-0.9.1/src'
+make[1]: Leaving directory '/tmp/mecab-0.996-ko-0.9.1/src'
+Making install in man
+make[1]: Entering directory '/tmp/mecab-0.996-ko-0.9.1/man'
+make[2]: Entering directory '/tmp/mecab-0.996-ko-0.9.1/man'
+make[2]: Nothing to be done for 'install-exec-am'.
+test -z "/usr/local/share/man/man1" || /bin/mkdir -p "/usr/local/share/man/man1"
+ /usr/bin/install -c -m 644 mecab.1 '/usr/local/share/man/man1'
+make[2]: Leaving directory '/tmp/mecab-0.996-ko-0.9.1/man'
+make[1]: Leaving directory '/tmp/mecab-0.996-ko-0.9.1/man'
+Making install in doc
+make[1]: Entering directory '/tmp/mecab-0.996-ko-0.9.1/doc'
+make[2]: Entering directory '/tmp/mecab-0.996-ko-0.9.1/doc'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/tmp/mecab-0.996-ko-0.9.1/doc'
+make[1]: Leaving directory '/tmp/mecab-0.996-ko-0.9.1/doc'
+Making install in tests
+make[1]: Entering directory '/tmp/mecab-0.996-ko-0.9.1/tests'
+make[2]: Entering directory '/tmp/mecab-0.996-ko-0.9.1/tests'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/tmp/mecab-0.996-ko-0.9.1/tests'
+make[1]: Leaving directory '/tmp/mecab-0.996-ko-0.9.1/tests'
+make[1]: Entering directory '/tmp/mecab-0.996-ko-0.9.1'
+make[2]: Entering directory '/tmp/mecab-0.996-ko-0.9.1'
+test -z "/usr/local/bin" || /bin/mkdir -p "/usr/local/bin"
+ /usr/bin/install -c mecab-config '/usr/local/bin'
+test -z "/usr/local/etc" || /bin/mkdir -p "/usr/local/etc"
+ /usr/bin/install -c -m 644 mecabrc '/usr/local/etc'
+make[2]: Leaving directory '/tmp/mecab-0.996-ko-0.9.1'
+make[1]: Leaving directory '/tmp/mecab-0.996-ko-0.9.1'
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0
+100 1339k  100 1339k    0     0   394k      0  0:00:03  0:00:03 --:--:--  394k
+automake-1.11/
+automake-1.11/THANKS
+automake-1.11/ChangeLog.03
+automake-1.11/automake.in
+automake-1.11/ChangeLog.96
+automake-1.11/ChangeLog.98
+automake-1.11/m4/
+automake-1.11/m4/gcj.m4
+automake-1.11/m4/missing.m4
+automake-1.11/m4/runlog.m4
+automake-1.11/m4/lex.m4
+automake-1.11/m4/vala.m4
+automake-1.11/m4/obsol-gt.m4
+automake-1.11/m4/obsol-lt.m4
+automake-1.11/m4/minuso.m4
+automake-1.11/m4/ccstdc.m4
+automake-1.11/m4/install-sh.m4
+automake-1.11/m4/upc.m4
+automake-1.11/m4/sanity.m4
+automake-1.11/m4/amversion.m4
+automake-1.11/m4/make.m4
+automake-1.11/m4/auxdir.m4
+automake-1.11/m4/options.m4
+automake-1.11/m4/lispdir.m4
+automake-1.11/m4/Makefile.am
+automake-1.11/m4/dirlist
+automake-1.11/m4/cond.m4
+automake-1.11/m4/mkdirp.m4
+automake-1.11/m4/cond-if.m4
+automake-1.11/m4/as.m4
+automake-1.11/m4/amversion.in
+automake-1.11/m4/silent.m4
+automake-1.11/m4/depout.m4
+automake-1.11/m4/maintainer.m4
+automake-1.11/m4/protos.m4
+automake-1.11/m4/lead-dot.m4
+automake-1.11/m4/python.m4
+automake-1.11/m4/strip.m4
+automake-1.11/m4/tar.m4
+automake-1.11/m4/header.m4
+automake-1.11/m4/obsolete.m4
+automake-1.11/m4/Makefile.in
+automake-1.11/m4/multi.m4
+automake-1.11/m4/regex.m4
+automake-1.11/m4/dmalloc.m4
+automake-1.11/m4/depend.m4
+automake-1.11/m4/init.m4
+automake-1.11/m4/substnot.m4
+automake-1.11/ChangeLog
+automake-1.11/tests/
+automake-1.11/tests/acloca11.test
+automake-1.11/tests/nobase.test
+automake-1.11/tests/maken2.test
+automake-1.11/tests/distname.test
+automake-1.11/tests/instdir.test
+automake-1.11/tests/conff.test
+automake-1.11/tests/bsource.test
+automake-1.11/tests/silent3.test
+automake-1.11/tests/depcomp2.test
+automake-1.11/tests/autohdr4.test
+automake-1.11/tests/pr307.test
+automake-1.11/tests/mkinst3.test
+automake-1.11/tests/parallel-am.test
+automake-1.11/tests/comment2.test
+automake-1.11/tests/output2.test
+automake-1.11/tests/pr87.test
+automake-1.11/tests/libobj12.test
+automake-1.11/tests/suffix10.test
+automake-1.11/tests/parallel-tests8.test
+automake-1.11/tests/maken3.test
+automake-1.11/tests/txinfo10.test
+automake-1.11/tests/instdir-python.test
+automake-1.11/tests/libobj11.test
+automake-1.11/tests/txinfo6.test
+automake-1.11/tests/reqd2.test
+automake-1.11/tests/comment.test
+automake-1.11/tests/parallel-tests.am
+automake-1.11/tests/subst3.test
+automake-1.11/tests/instman2.test
+automake-1.11/tests/java2.test
+automake-1.11/tests/acloca21.test
+automake-1.11/tests/backsl2.test
+automake-1.11/tests/tar2.test
+automake-1.11/tests/txinfo32.test
+automake-1.11/tests/cond10.test
+automake-1.11/tests/cygwin32.test
+automake-1.11/tests/longline.test
+automake-1.11/tests/subpkg.test
+automake-1.11/tests/ltlibobjs.test
+automake-1.11/tests/instdir-lisp.test
+automake-1.11/tests/instdir-texi.test
+automake-1.11/tests/python6.test
+automake-1.11/tests/depdist.test
+automake-1.11/tests/yaccvpath.test
+automake-1.11/tests/ansi5.test
+automake-1.11/tests/aclocal4.test
+automake-1.11/tests/cond35.test
+automake-1.11/tests/tar.test
+automake-1.11/tests/pr401c-p.test
+automake-1.11/tests/silent2.test
+automake-1.11/tests/exeext3.test
+automake-1.11/tests/missing.test
+automake-1.11/tests/suffix6.test
+automake-1.11/tests/primary.test
+automake-1.11/tests/instexec.test
+automake-1.11/tests/extra.test
+automake-1.11/tests/comment9.test
+automake-1.11/tests/empty3.test
+automake-1.11/tests/pr211.test
+automake-1.11/tests/nodist3.test
+automake-1.11/tests/parallel-tests6.test
+automake-1.11/tests/gnuwarn2.test
+automake-1.11/tests/insh2.test
+automake-1.11/tests/depcomp5.test
+automake-1.11/tests/cond13.test
+automake-1.11/tests/parallel-tests9.test
+automake-1.11/tests/libtool.test
+automake-1.11/tests/auxdir4.test
+automake-1.11/tests/targetclash.test
+automake-1.11/tests/check6.test
+automake-1.11/tests/cond39.test
+automake-1.11/tests/specflg3.test
+automake-1.11/tests/gcj4.test
+automake-1.11/tests/werror.test
+automake-1.11/tests/depend3.test
+automake-1.11/tests/acloca12.test
+automake-1.11/tests/subdir.test
+automake-1.11/tests/check7.test
+automake-1.11/tests/yacc5.test
+automake-1.11/tests/werror2.test
+automake-1.11/tests/listval.test
+automake-1.11/tests/libobj2.test
+automake-1.11/tests/vars3.test
+automake-1.11/tests/comment7.test
+automake-1.11/tests/distcom5.test
+automake-1.11/tests/pluseq4.test
+automake-1.11/tests/pr224.test
+automake-1.11/tests/txinfo22.test
+automake-1.11/tests/txinfo9.test
+automake-1.11/tests/lex2.test
+automake-1.11/tests/parallel-tests7.test
+automake-1.11/tests/check10-p.test
+automake-1.11/tests/canon5.test
+automake-1.11/tests/python7.test
+automake-1.11/tests/confh4.test
+automake-1.11/tests/pluseq10.test
+automake-1.11/tests/conflnk3.test
+automake-1.11/tests/canon4.test
+automake-1.11/tests/output7.test
+automake-1.11/tests/link_fc.test
+automake-1.11/tests/missing6.test
+automake-1.11/tests/mdate.test
+automake-1.11/tests/exeext.test
+automake-1.11/tests/cond30.test
+automake-1.11/tests/txinfo.test
+automake-1.11/tests/remake4.test
+automake-1.11/tests/objc2.test
+automake-1.11/tests/destdir.test
+automake-1.11/tests/acoutqnl.test
+automake-1.11/tests/number.test
+automake-1.11/tests/library.test
+automake-1.11/tests/silent7.test
+automake-1.11/tests/subcond2.test
+automake-1.11/tests/confh5.test
+automake-1.11/tests/asm.test
+automake-1.11/tests/obsolete.test
+automake-1.11/tests/python12.test
+automake-1.11/tests/defun.test
+automake-1.11/tests/subdir5.test
+automake-1.11/tests/nodef.test
+automake-1.11/tests/ext2.test
+automake-1.11/tests/confvar2.test
+automake-1.11/tests/double.test
+automake-1.11/tests/clean.test
+automake-1.11/tests/aclocal5.test
+automake-1.11/tests/asm3.test
+automake-1.11/tests/check4-p.test
+automake-1.11/tests/suffix4.test
+automake-1.11/tests/subst.test
+automake-1.11/tests/comment9-p.test
+automake-1.11/tests/cond7.test
+automake-1.11/tests/depcomp7.test
+automake-1.11/tests/upc.test
+automake-1.11/tests/txinfo4.test
+automake-1.11/tests/install2.test
+automake-1.11/tests/instsh.test
+automake-1.11/tests/silent5.test
+automake-1.11/tests/seenc.test
+automake-1.11/tests/compile_f_c_cxx.test
+automake-1.11/tests/output9.test
+automake-1.11/tests/syntax.test
+automake-1.11/tests/comment4.test
+automake-1.11/tests/ansi4.test
+automake-1.11/tests/order.test
+automake-1.11/tests/acloca15.test
+automake-1.11/tests/check3.test
+automake-1.11/tests/automake.test
+automake-1.11/tests/check7-p.test
+automake-1.11/tests/config.test
+automake-1.11/tests/condman2.test
+automake-1.11/tests/pr243.test
+automake-1.11/tests/fpinst2.test
+automake-1.11/tests/ansi2.test
+automake-1.11/tests/fortdep.test
+automake-1.11/tests/specflg6.test
+automake-1.11/tests/distcom7.test
+automake-1.11/tests/libtool9.test
+automake-1.11/tests/specflg.test
+automake-1.11/tests/txinfo26.test
+automake-1.11/tests/license.test
+automake-1.11/tests/output5.test
+automake-1.11/tests/sinclude.test
+automake-1.11/tests/gettext.test
+automake-1.11/tests/txinfo21.test
+automake-1.11/tests/pluseq9.test
+automake-1.11/tests/instfail.test
+automake-1.11/tests/subdir2.test
+automake-1.11/tests/percent.test
+automake-1.11/tests/libtool5.test
+automake-1.11/tests/notrans.test
+automake-1.11/tests/pluseq.test
+automake-1.11/tests/flavor.test
+automake-1.11/tests/distdir.test
+automake-1.11/tests/mkinstall.test
+automake-1.11/tests/symlink.test
+automake-1.11/tests/subst4.test
+automake-1.11/tests/maken.test
+automake-1.11/tests/ansi3b.test
+automake-1.11/tests/automake.in
+automake-1.11/tests/canon3.test
+automake-1.11/tests/txinfo18.test
+automake-1.11/tests/pr287.test
+automake-1.11/tests/ansi6.test
+automake-1.11/tests/include.test
+automake-1.11/tests/copy.test
+automake-1.11/tests/cond.test
+automake-1.11/tests/depend2.test
+automake-1.11/tests/depcomp3.test
+automake-1.11/tests/distcom4.test
+automake-1.11/tests/symlink3.test
+automake-1.11/tests/yacc2.test
+automake-1.11/tests/man.test
+automake-1.11/tests/txinfo17.test
+automake-1.11/tests/autohdr.test
+automake-1.11/tests/cond23.test
+automake-1.11/tests/vpath.test
+automake-1.11/tests/version.test
+automake-1.11/tests/nogzip2.test
+automake-1.11/tests/fo.test
+automake-1.11/tests/acsubst2.test
+automake-1.11/tests/yacc4.test
+automake-1.11/tests/extra3.test
+automake-1.11/tests/aclibobj.test
+automake-1.11/tests/acloca10.test
+automake-1.11/tests/ccnoco2.test
+automake-1.11/tests/alloca.test
+automake-1.11/tests/lisp6.test
+automake-1.11/tests/python3.test
+automake-1.11/tests/colon6.test
+automake-1.11/tests/makej.test
+automake-1.11/tests/colon5.test
+automake-1.11/tests/specflg2.test
+automake-1.11/tests/vala1.test
+automake-1.11/tests/vtexi2.test
+automake-1.11/tests/gcj2.test
+automake-1.11/tests/output3.test
+automake-1.11/tests/cond26.test
+automake-1.11/tests/ltinstloc.test
+automake-1.11/tests/interp2.test
+automake-1.11/tests/color.test
+automake-1.11/tests/lex4.test
+automake-1.11/tests/cond38.test
+automake-1.11/tests/hosts.test
+automake-1.11/tests/lisp5.test
+automake-1.11/tests/mkinst2.test
+automake-1.11/tests/cond43.test
+automake-1.11/tests/man2.test
+automake-1.11/tests/depend6.test
+automake-1.11/tests/transform.test
+automake-1.11/tests/comment5.test
+automake-1.11/tests/cond34.test
+automake-1.11/tests/cond4.test
+automake-1.11/tests/vala.test
+automake-1.11/tests/srcsub2.test
+automake-1.11/tests/acloca19.test
+automake-1.11/tests/cond36.test
+automake-1.11/tests/backsl.test
+automake-1.11/tests/colneq2.test
+automake-1.11/tests/pr2.test
+automake-1.11/tests/cond17.test
+automake-1.11/tests/fn99subdir.test
+automake-1.11/tests/lisp4.test
+automake-1.11/tests/cond16.test
+automake-1.11/tests/gettext2.test
+automake-1.11/tests/colon.test
+automake-1.11/tests/acloca16.test
+automake-1.11/tests/check2.test
+automake-1.11/tests/cond22.test
+automake-1.11/tests/proginst.test
+automake-1.11/tests/parallel-tests5.test
+automake-1.11/tests/version3.test
+automake-1.11/tests/fn99.test
+automake-1.11/tests/man3.test
+automake-1.11/tests/libtool3.test
+automake-1.11/tests/nostdinc.test
+automake-1.11/tests/confdeps.test
+automake-1.11/tests/cond32.test
+automake-1.11/tests/remake6.test
+automake-1.11/tests/empty4.test
+automake-1.11/tests/cond20.test
+automake-1.11/tests/insthook.test
+automake-1.11/tests/gcj.test
+automake-1.11/tests/extra8.test
+automake-1.11/tests/parallel-tests3.test
+automake-1.11/tests/instman.test
+automake-1.11/tests/subobj10.test
+automake-1.11/tests/lzma.test
+automake-1.11/tests/alloca2.test
+automake-1.11/tests/version4.test
+automake-1.11/tests/instdir-java.test
+automake-1.11/tests/cxxansi.test
+automake-1.11/tests/noinst.test
+automake-1.11/tests/condlib.test
+automake-1.11/tests/subobj.test
+automake-1.11/tests/link_f_only.test
+automake-1.11/tests/stdlib.test
+automake-1.11/tests/upc3.test
+automake-1.11/tests/transform2.test
+automake-1.11/tests/location.test
+automake-1.11/tests/dirforbid.test
+automake-1.11/tests/installdir.test
+automake-1.11/tests/libtool7.test
+automake-1.11/tests/subobj9.test
+automake-1.11/tests/fort1.test
+automake-1.11/tests/fort4.test
+automake-1.11/tests/yacc7.test
+automake-1.11/tests/gnumake.test
+automake-1.11/tests/suffix2.test
+automake-1.11/tests/help.test
+automake-1.11/tests/fort5.test
+automake-1.11/tests/condinc2.test
+automake-1.11/tests/pr300-ltlib.test
+automake-1.11/tests/ldadd.test
+automake-1.11/tests/nolink.test
+automake-1.11/tests/instmany-python.test
+automake-1.11/tests/cond42.test
+automake-1.11/tests/backsl4.test
+automake-1.11/tests/output11.test
+automake-1.11/tests/java3.test
+automake-1.11/tests/pr300-lib.test
+automake-1.11/tests/mmode.test
+automake-1.11/tests/spell.test
+automake-1.11/tests/empty.test
+automake-1.11/tests/cxxcpp.test
+automake-1.11/tests/pr229.test
+automake-1.11/tests/outdir.test
+automake-1.11/tests/lisp2.test
+automake-1.11/tests/txinfo24.test
+automake-1.11/tests/tar3.test
+automake-1.11/tests/recurs.test
+automake-1.11/tests/ansi7.test
+automake-1.11/tests/check11-p.test
+automake-1.11/tests/colon7.test
+automake-1.11/tests/confsub.test
+automake-1.11/tests/check8.test
+automake-1.11/tests/pluseq6.test
+automake-1.11/tests/cxx.test
+automake-1.11/tests/libtool6.test
+automake-1.11/tests/check6-p.test
+automake-1.11/tests/pr401c.test
+automake-1.11/tests/txinfo13.test
+automake-1.11/tests/silent.test
+automake-1.11/tests/makevars.test
+automake-1.11/tests/space.test
+automake-1.11/tests/sanity.test
+automake-1.11/tests/ctarget1.test
+automake-1.11/tests/nodist.test
+automake-1.11/tests/nobase-libtool.test
+automake-1.11/tests/txinfo16.test
+automake-1.11/tests/xsource.test
+automake-1.11/tests/parallel-am2.test
+automake-1.11/tests/python5.test
+automake-1.11/tests/dup2.test
+automake-1.11/tests/colon4.test
+automake-1.11/tests/dejagnu7.test
+automake-1.11/tests/interp.test
+automake-1.11/tests/libtoo10.test
+automake-1.11/tests/multlib.test
+automake-1.11/tests/vars.test
+automake-1.11/tests/python2.test
+automake-1.11/tests/nobase-python.test
+automake-1.11/tests/cond24.test
+automake-1.11/tests/cond28.test
+automake-1.11/tests/missing2.test
+automake-1.11/tests/mdate3.test
+automake-1.11/tests/ansi3.test
+automake-1.11/tests/condman.test
+automake-1.11/tests/pr401b-p.test
+automake-1.11/tests/python.test
+automake-1.11/tests/cond6.test
+automake-1.11/tests/ar.test
+automake-1.11/tests/all.test
+automake-1.11/tests/pr279-2.test
+automake-1.11/tests/auxdir3.test
+automake-1.11/tests/missing3.test
+automake-1.11/tests/longlin2.test
+automake-1.11/tests/dejagnu.test
+automake-1.11/tests/else.test
+automake-1.11/tests/info.test
+automake-1.11/tests/instdir-ltlib.test
+automake-1.11/tests/percent2.test
+automake-1.11/tests/cond5.test
+automake-1.11/tests/libobj10.test
+automake-1.11/tests/commen11.test
+automake-1.11/tests/colneq.test
+automake-1.11/tests/ansi9.test
+automake-1.11/tests/acloca13.test
+automake-1.11/tests/unused.test
+automake-1.11/tests/parallel-tests4.test
+automake-1.11/tests/cxx2.test
+automake-1.11/tests/postproc.test
+automake-1.11/tests/dejagnu3.test
+automake-1.11/tests/link_fcxx.test
+automake-1.11/tests/specflg10.test
+automake-1.11/tests/ltdeps.test
+automake-1.11/tests/libtoo11.test
+automake-1.11/tests/cond9.test
+automake-1.11/tests/output4.test
+automake-1.11/tests/txinfo23.test
+automake-1.11/tests/yacc3.test
+automake-1.11/tests/link_fccxx.test
+automake-1.11/tests/link_f90_only.test
+automake-1.11/tests/pr300-prog.test
+automake-1.11/tests/vala5.test
+automake-1.11/tests/check11.test
+automake-1.11/tests/libobj3.test
+automake-1.11/tests/exeext4-p.test
+automake-1.11/tests/mdate5.test
+automake-1.11/tests/acoutbs.test
+automake-1.11/tests/acsilent.test
+automake-1.11/tests/empty2.test
+automake-1.11/tests/dirlist2.test
+automake-1.11/tests/license2.test
+automake-1.11/tests/substtarg.test
+automake-1.11/tests/instdat2.test
+automake-1.11/tests/specflg7.test
+automake-1.11/tests/pr204.test
+automake-1.11/tests/acsubst.test
+automake-1.11/tests/compile_f90_c_cxx.test
+automake-1.11/tests/req.test
+automake-1.11/tests/libtool2.test
+automake-1.11/tests/compile2.test
+automake-1.11/tests/distcom2.test
+automake-1.11/tests/check9.test
+automake-1.11/tests/missing5.test
+automake-1.11/tests/library2.test
+automake-1.11/tests/pr72.test
+automake-1.11/tests/vala2.test
+automake-1.11/tests/output-order.test
+automake-1.11/tests/output.test
+automake-1.11/tests/cond27.test
+automake-1.11/tests/ChangeLog-old
+automake-1.11/tests/acloca17.test
+automake-1.11/tests/python9.test
+automake-1.11/tests/cond37.test
+automake-1.11/tests/cond11.test
+automake-1.11/tests/whoami.test
+automake-1.11/tests/txinfo25.test
+automake-1.11/tests/txinfo2.test
+automake-1.11/tests/yacc.test
+automake-1.11/tests/suffix9.test
+automake-1.11/tests/check10.test
+automake-1.11/tests/dollarvar2.test
+automake-1.11/tests/subpkg2.test
+automake-1.11/tests/pr401.test
+automake-1.11/tests/maken4-p.test
+automake-1.11/tests/depcomp4.test
+automake-1.11/tests/txinfo19.test
+automake-1.11/tests/extra4.test
+automake-1.11/tests/suffix13.test
+automake-1.11/tests/txinfo8.test
+automake-1.11/tests/upc2.test
+automake-1.11/tests/warnopts.test
+automake-1.11/tests/depend.test
+automake-1.11/tests/spell3.test
+automake-1.11/tests/fpinstall.test
+automake-1.11/tests/subdir3.test
+automake-1.11/tests/clean2.test
+automake-1.11/tests/aclocal.test
+automake-1.11/tests/gnuwarn.test
+automake-1.11/tests/instdir2.test
+automake-1.11/tests/remake5.test
+automake-1.11/tests/txinfo30.test
+automake-1.11/tests/spell2.test
+automake-1.11/tests/overrid.test
+automake-1.11/tests/ammissing.test
+automake-1.11/tests/auxdir2.test
+automake-1.11/tests/subobj6.test
+automake-1.11/tests/cond18.test
+automake-1.11/tests/depend5.test
+automake-1.11/tests/cond29.test
+automake-1.11/tests/pluseq3.test
+automake-1.11/tests/compile.test
+automake-1.11/tests/txinfo7.test
+automake-1.11/tests/header.test
+automake-1.11/tests/remake7.test
+automake-1.11/tests/silent6.test
+automake-1.11/tests/vala4.test
+automake-1.11/tests/conflnk4.test
+automake-1.11/tests/subdir9.test
+automake-1.11/tests/primary3.test
+automake-1.11/tests/Makefile.am
+automake-1.11/tests/depend4.test
+automake-1.11/tests/output8.test
+automake-1.11/tests/txinfo5.test
+automake-1.11/tests/check3-p.test
+automake-1.11/tests/nodef2.test
+automake-1.11/tests/instfail-info.test
+automake-1.11/tests/autohdr3.test
+automake-1.11/tests/version6.test
+automake-1.11/tests/cxxo.test
+automake-1.11/tests/txinfo3.test
+automake-1.11/tests/pr220.test
+automake-1.11/tests/link_c_cxx.test
+automake-1.11/tests/cond19.test
+automake-1.11/tests/srcsub.test
+automake-1.11/tests/acloca20.test
+automake-1.11/tests/aclocal3.test
+automake-1.11/tests/yaccpp.test
+automake-1.11/tests/nodist2.test
+automake-1.11/tests/output13.test
+automake-1.11/tests/stdlib2.test
+automake-1.11/tests/dash.test
+automake-1.11/tests/txinfo33.test
+automake-1.11/tests/recurs2.test
+automake-1.11/tests/instspc.test
+automake-1.11/tests/README
+automake-1.11/tests/subpkg3.test
+automake-1.11/tests/strip.test
+automake-1.11/tests/ansi.test
+automake-1.11/tests/dejagnu-p.test
+automake-1.11/tests/confvar.test
+automake-1.11/tests/suffix12.test
+automake-1.11/tests/instsh2.test
+automake-1.11/tests/xz.test
+automake-1.11/tests/lex5.test
+automake-1.11/tests/acoutnoq.test
+automake-1.11/tests/f90only.test
+automake-1.11/tests/cond25.test
+automake-1.11/tests/maken4.test
+automake-1.11/tests/substre2.test
+automake-1.11/tests/lisp3.test
+automake-1.11/tests/python10.test
+automake-1.11/tests/condinc.test
+automake-1.11/tests/comment3.test
+automake-1.11/tests/aclocal8.test
+automake-1.11/tests/confincl.test
+automake-1.11/tests/libobj5.test
+automake-1.11/tests/txinfo27.test
+automake-1.11/tests/mdate4.test
+automake-1.11/tests/instdat.test
+automake-1.11/tests/txinfo31.test
+automake-1.11/tests/vartar.test
+automake-1.11/tests/nogzip.test
+automake-1.11/tests/fonly.test
+automake-1.11/tests/man5.test
+automake-1.11/tests/extra7.test
+automake-1.11/tests/colon3.test
+automake-1.11/tests/dejagnu6.test
+automake-1.11/tests/amassign.test
+automake-1.11/tests/ltconv.test
+automake-1.11/tests/check-p.test
+automake-1.11/tests/fort2.test
+automake-1.11/tests/check2-p.test
+automake-1.11/tests/symlink2.test
+automake-1.11/tests/instdir-prog.test
+automake-1.11/tests/confh.test
+automake-1.11/tests/objc.test
+automake-1.11/tests/rulepat.test
+automake-1.11/tests/mclean.test
+automake-1.11/tests/pluseq8.test
+automake-1.11/tests/subdir8.test
+automake-1.11/tests/init.test
+automake-1.11/tests/check8-p.test
+automake-1.11/tests/amopt.test
+automake-1.11/tests/suffix.test
+automake-1.11/tests/depcomp6.test
+automake-1.11/tests/flibs.test
+automake-1.11/tests/missing4.test
+automake-1.11/tests/yacc8.test
+automake-1.11/tests/specflg8.test
+automake-1.11/tests/subcond.test
+automake-1.11/tests/cond3.test
+automake-1.11/tests/txinfo20.test
+automake-1.11/tests/badprog.test
+automake-1.11/tests/auxdir.test
+automake-1.11/tests/implicit.test
+automake-1.11/tests/gnits.test
+automake-1.11/tests/check.test
+automake-1.11/tests/acloca14.test
+automake-1.11/tests/canon-name.test
+automake-1.11/tests/discover.test
+automake-1.11/tests/aclocal6.test
+automake-1.11/tests/conff2.test
+automake-1.11/tests/output6.test
+automake-1.11/tests/gcj3.test
+automake-1.11/tests/instfail-java.test
+automake-1.11/tests/cxxlibobj.test
+automake-1.11/tests/vala3.test
+automake-1.11/tests/txinfo29.test
+automake-1.11/tests/parallel-am3.test
+automake-1.11/tests/block.test
+automake-1.11/tests/parse.test
+automake-1.11/tests/conflnk.test
+automake-1.11/tests/lex.test
+automake-1.11/tests/dejagnu5.test
+automake-1.11/tests/depcomp.test
+automake-1.11/tests/fnoc.test
+automake-1.11/tests/subdir7.test
+automake-1.11/tests/version8.test
+automake-1.11/tests/dirlist.test
+automake-1.11/tests/dejagnu2.test
+automake-1.11/tests/cond21.test
+automake-1.11/tests/exeext4.test
+automake-1.11/tests/primary2.test
+automake-1.11/tests/exdir3.test
+automake-1.11/tests/ltcond2.test
+automake-1.11/tests/output10.test
+automake-1.11/tests/subobj4.test
+automake-1.11/tests/txinfo28.test
+automake-1.11/tests/library3.test
+automake-1.11/tests/nodep.test
+automake-1.11/tests/comment8.test
+automake-1.11/tests/hfs.test
+automake-1.11/tests/autohdr2.test
+automake-1.11/tests/color-p.test
+automake-1.11/tests/acloca18.test
+automake-1.11/tests/parallel-tests.test
+automake-1.11/tests/man4.test
+automake-1.11/tests/remake3.test
+automake-1.11/tests/ldflags.test
+automake-1.11/tests/cond14.test
+automake-1.11/tests/depacl2.test
+automake-1.11/tests/check9-p.test
+automake-1.11/tests/ltorder.test
+automake-1.11/tests/mmodely.test
+automake-1.11/tests/include2.test
+automake-1.11/tests/spy.test
+automake-1.11/tests/commen10.test
+automake-1.11/tests/extra5.test
+automake-1.11/tests/subobj3.test
+automake-1.11/tests/comment6.test
+automake-1.11/tests/substref.test
+automake-1.11/tests/make.test
+automake-1.11/tests/asm2.test
+automake-1.11/tests/check5-p.test
+automake-1.11/tests/instmany-mans.test
+automake-1.11/tests/gettext3.test
+automake-1.11/tests/subobj8.test
+automake-1.11/tests/exdir2.test
+automake-1.11/tests/condd.test
+automake-1.11/tests/suffix5.test
+automake-1.11/tests/parallel-tests2.test
+automake-1.11/tests/subpkg4.test
+automake-1.11/tests/lisp7.test
+automake-1.11/tests/exsource.test
+automake-1.11/tests/extra6.test
+automake-1.11/tests/javaprim.test
+automake-1.11/tests/ar2.test
+automake-1.11/tests/canon2.test
+automake-1.11/tests/silent4.test
+automake-1.11/tests/libobj4.test
+automake-1.11/tests/gen-parallel-tests
+automake-1.11/tests/remake.test
+automake-1.11/tests/acoutpt.test
+automake-1.11/tests/distcom3.test
+automake-1.11/tests/python11.test
+automake-1.11/tests/ansi8.test
+automake-1.11/tests/gnits2.test
+automake-1.11/tests/subobjname.test
+automake-1.11/tests/badline.test
+automake-1.11/tests/subcond3.test
+automake-1.11/tests/ltcond.test
+automake-1.11/tests/ltlibsrc.test
+automake-1.11/tests/regex.test
+automake-1.11/tests/conflnk2.test
+automake-1.11/tests/backsl3.test
+automake-1.11/tests/aclocal9.test
+automake-1.11/tests/subdir6.test
+automake-1.11/tests/cond8.test
+automake-1.11/tests/specflg9.test
+automake-1.11/tests/output12.test
+automake-1.11/tests/javasubst.test
+automake-1.11/tests/suffix3.test
+automake-1.11/tests/acoutpt2.test
+automake-1.11/tests/pr279.test
+automake-1.11/tests/distcom6.test
+automake-1.11/tests/check5.test
+automake-1.11/tests/nodep2.test
+automake-1.11/tests/cond31.test
+automake-1.11/tests/cond15.test
+automake-1.11/tests/maintclean.test
+automake-1.11/tests/instmany.test
+automake-1.11/tests/subobj7.test
+automake-1.11/tests/subst2.test
+automake-1.11/tests/python4.test
+automake-1.11/tests/stamph2.test
+automake-1.11/tests/Makefile.in
+automake-1.11/tests/exeext2.test
+automake-1.11/tests/spelling.test
+automake-1.11/tests/pluseq5.test
+automake-1.11/tests/ccnoco.test
+automake-1.11/tests/defun2.test
+automake-1.11/tests/cond2.test
+automake-1.11/tests/vtexi.test
+automake-1.11/tests/instfail-libtool.test
+automake-1.11/tests/mdate2.test
+automake-1.11/tests/libobj7.test
+automake-1.11/tests/libobj8.test
+automake-1.11/tests/aclocal.in
+automake-1.11/tests/lex3.test
+automake-1.11/tests/cond33.test
+automake-1.11/tests/colon2.test
+automake-1.11/tests/version2.test
+automake-1.11/tests/libobj13.test
+automake-1.11/tests/reqd.test
+automake-1.11/tests/noinstdir.test
+automake-1.11/tests/pluseq2.test
+automake-1.11/tests/target-cflags.test
+automake-1.11/tests/conf2.test
+automake-1.11/tests/libtool8.test
+automake-1.11/tests/gnits3.test
+automake-1.11/tests/prefix.test
+automake-1.11/tests/stdinc.test
+automake-1.11/tests/libexec.test
+automake-1.11/tests/link_dist.test
+automake-1.11/tests/version7.test
+automake-1.11/tests/subdir4.test
+automake-1.11/tests/aclocal7.test
+automake-1.11/tests/checkall.test
+automake-1.11/tests/dollarvar.test
+automake-1.11/tests/nodepcomp.test
+automake-1.11/tests/pluseq7.test
+automake-1.11/tests/scripts.test
+automake-1.11/tests/acloca22.test
+automake-1.11/tests/canon.test
+automake-1.11/tests/check4.test
+automake-1.11/tests/ppf77.test
+automake-1.11/tests/tags.test
+automake-1.11/tests/libtool4.test
+automake-1.11/tests/condhook.test
+automake-1.11/tests/suffix11.test
+automake-1.11/tests/pr401b.test
+automake-1.11/tests/cond41.test
+automake-1.11/tests/suffix8.test
+automake-1.11/tests/pr9.test
+automake-1.11/tests/exdir.test
+automake-1.11/tests/phony.test
+automake-1.11/tests/subobj5.test
+automake-1.11/tests/alpha.test
+automake-1.11/tests/dollar.test
+automake-1.11/tests/remake2.test
+automake-1.11/tests/instsh3.test
+automake-1.11/tests/python8.test
+automake-1.11/tests/dejagnu4.test
+automake-1.11/tests/gcj5.test
+automake-1.11/tests/cond40.test
+automake-1.11/tests/getopt.test
+automake-1.11/tests/lisp8.test
+automake-1.11/tests/ansi10.test
+automake-1.11/tests/defs.in
+automake-1.11/tests/alpha2.test
+automake-1.11/tests/tagsub.test
+automake-1.11/tests/makej2.test
+automake-1.11/tests/libobj14.test
+automake-1.11/tests/subdirbuiltsources.test
+automake-1.11/tests/maken3-p.test
+automake-1.11/tests/yacc6.test
+automake-1.11/tests/cxxlink.test
+automake-1.11/tests/amsubst.test
+automake-1.11/tests/cxxnoc.test
+automake-1.11/tests/pr266.test
+automake-1.11/tests/suffix7.test
+automake-1.11/tests/subobj2.test
+automake-1.11/tests/distcleancheck.test
+automake-1.11/tests/ext.test
+automake-1.11/tests/java.test
+automake-1.11/tests/pr401-p.test
+automake-1.11/COPYING
+automake-1.11/doc/
+automake-1.11/doc/automake.info-2
+automake-1.11/doc/stamp-vti
+automake-1.11/doc/amhello-1.0.tar.gz
+automake-1.11/doc/automake-1.11.1
+automake-1.11/doc/aclocal.1
+automake-1.11/doc/automake.texi
+automake-1.11/doc/Makefile.am
+automake-1.11/doc/amhello/
+automake-1.11/doc/amhello/Makefile.am
+automake-1.11/doc/amhello/README
+automake-1.11/doc/amhello/configure.ac
+automake-1.11/doc/amhello/src/
+automake-1.11/doc/amhello/src/main.c
+automake-1.11/doc/amhello/src/Makefile.am
+automake-1.11/doc/version.texi
+automake-1.11/doc/aclocal-1.11.1
+automake-1.11/doc/automake.1
+automake-1.11/doc/Makefile.in
+automake-1.11/doc/fdl.texi
+automake-1.11/doc/automake.info
+automake-1.11/doc/automake.info-1
+automake-1.11/AUTHORS
+automake-1.11/ChangeLog.01
+automake-1.11/NEWS
+automake-1.11/configure
+automake-1.11/INSTALL
+automake-1.11/Makefile.am
+automake-1.11/aclocal.m4
+automake-1.11/README
+automake-1.11/ChangeLog.02
+automake-1.11/ChangeLog.00
+automake-1.11/ChangeLog.04
+automake-1.11/configure.ac
+automake-1.11/Makefile.in
+automake-1.11/aclocal.in
+automake-1.11/lib/
+automake-1.11/lib/missing
+automake-1.11/lib/elisp-comp
+automake-1.11/lib/mdate-sh
+automake-1.11/lib/py-compile
+automake-1.11/lib/Automake/
+automake-1.11/lib/Automake/ChannelDefs.pm
+automake-1.11/lib/Automake/Channels.pm
+automake-1.11/lib/Automake/Item.pm
+automake-1.11/lib/Automake/ItemDef.pm
+automake-1.11/lib/Automake/Struct.pm
+automake-1.11/lib/Automake/Wrap.pm
+automake-1.11/lib/Automake/Options.pm
+automake-1.11/lib/Automake/XFile.pm
+automake-1.11/lib/Automake/VarDef.pm
+automake-1.11/lib/Automake/tests/
+automake-1.11/lib/Automake/tests/DisjConditions-t.pl
+automake-1.11/lib/Automake/tests/Wrap.pl
+automake-1.11/lib/Automake/tests/Condition.pl
+automake-1.11/lib/Automake/tests/Makefile.am
+automake-1.11/lib/Automake/tests/Condition-t.pl
+automake-1.11/lib/Automake/tests/DisjConditions.pl
+automake-1.11/lib/Automake/tests/Makefile.in
+automake-1.11/lib/Automake/tests/Version.pl
+automake-1.11/lib/Automake/Variable.pm
+automake-1.11/lib/Automake/Config.in
+automake-1.11/lib/Automake/Version.pm
+automake-1.11/lib/Automake/General.pm
+automake-1.11/lib/Automake/Location.pm
+automake-1.11/lib/Automake/Condition.pm
+automake-1.11/lib/Automake/Rule.pm
+automake-1.11/lib/Automake/Makefile.am
+automake-1.11/lib/Automake/RuleDef.pm
+automake-1.11/lib/Automake/DisjConditions.pm
+automake-1.11/lib/Automake/Makefile.in
+automake-1.11/lib/Automake/Configure_ac.pm
+automake-1.11/lib/Automake/FileUtils.pm
+automake-1.11/lib/compile
+automake-1.11/lib/COPYING
+automake-1.11/lib/config.sub
+automake-1.11/lib/mkinstalldirs
+automake-1.11/lib/install-sh
+automake-1.11/lib/am/
+automake-1.11/lib/am/inst-vars.am
+automake-1.11/lib/am/texinfos.am
+automake-1.11/lib/am/depend2.am
+automake-1.11/lib/am/lex.am
+automake-1.11/lib/am/footer.am
+automake-1.11/lib/am/clean-hdr.am
+automake-1.11/lib/am/scripts.am
+automake-1.11/lib/am/mans-vars.am
+automake-1.11/lib/am/program.am
+automake-1.11/lib/am/distdir.am
+automake-1.11/lib/am/vala.am
+automake-1.11/lib/am/yacc.am
+automake-1.11/lib/am/depend.am
+automake-1.11/lib/am/tags.am
+automake-1.11/lib/am/check2.am
+automake-1.11/lib/am/texibuild.am
+automake-1.11/lib/am/mans.am
+automake-1.11/lib/am/compile.am
+automake-1.11/lib/am/library.am
+automake-1.11/lib/am/ansi2knr.am
+automake-1.11/lib/am/Makefile.am
+automake-1.11/lib/am/texi-vers.am
+automake-1.11/lib/am/header-vars.am
+automake-1.11/lib/am/data.am
+automake-1.11/lib/am/progs.am
+automake-1.11/lib/am/clean.am
+automake-1.11/lib/am/dejagnu.am
+automake-1.11/lib/am/install.am
+automake-1.11/lib/am/ltlibrary.am
+automake-1.11/lib/am/lang-compile.am
+automake-1.11/lib/am/check.am
+automake-1.11/lib/am/Makefile.in
+automake-1.11/lib/am/libtool.am
+automake-1.11/lib/am/multilib.am
+automake-1.11/lib/am/ltlib.am
+automake-1.11/lib/am/remake-hdr.am
+automake-1.11/lib/am/header.am
+automake-1.11/lib/am/libs.am
+automake-1.11/lib/am/java.am
+automake-1.11/lib/am/subdirs.am
+automake-1.11/lib/am/lisp.am
+automake-1.11/lib/am/configure.am
+automake-1.11/lib/am/python.am
+automake-1.11/lib/ansi2knr.c
+automake-1.11/lib/INSTALL
+automake-1.11/lib/Makefile.am
+automake-1.11/lib/symlink-tree
+automake-1.11/lib/config.guess
+automake-1.11/lib/depcomp
+automake-1.11/lib/acinstall
+automake-1.11/lib/gnupload
+automake-1.11/lib/texinfo.tex
+automake-1.11/lib/config-ml.in
+automake-1.11/lib/ansi2knr.1
+automake-1.11/lib/Makefile.in
+automake-1.11/lib/ylwrap
+automake-1.11/TODO
+checking build system type... x86_64-unknown-linux-gnu
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking for perl... /usr/bin/perl
+checking whether /usr/bin/perl supports ithreads... yes
+checking for tex... no
+checking whether autoconf is installed... yes
+checking whether autoconf works... yes
+checking whether autoconf is recent enough... yes
+checking whether ln works... yes
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for fgrep... /bin/grep -F
+checking whether /bin/sh has working 'set -e' with exit trap... yes
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating doc/Makefile
+config.status: creating lib/Automake/Makefile
+config.status: creating lib/Automake/tests/Makefile
+config.status: creating lib/Makefile
+config.status: creating lib/am/Makefile
+config.status: creating m4/Makefile
+config.status: creating tests/Makefile
+config.status: creating tests/defs
+config.status: creating tests/aclocal-1.11
+config.status: creating tests/automake-1.11
+Making all in lib
+make[1]: Entering directory '/tmp/automake-1.11/lib'
+Making all in Automake
+make[2]: Entering directory '/tmp/automake-1.11/lib/Automake'
+Making all in tests
+make[3]: Entering directory '/tmp/automake-1.11/lib/Automake/tests'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/tmp/automake-1.11/lib/Automake/tests'
+make[3]: Entering directory '/tmp/automake-1.11/lib/Automake'
+rm -f Config.tmp Config.pm
+in=`echo Config.pm | sed 's/\.[^.]*$//'`; sed -e 's,[@]APIVERSION[@],1.11,g' -e 's,[@]PACKAGE[@],automake,g' -e 's,[@]PERL[@],/usr/bin/perl,g' -e 's,[@]PERL_THREADS[@],1,g' -e 's,[@]SHELL[@],/bin/bash,g' -e 's,[@]VERSION[@],1.11,g' -e "s,[@]configure_input[@],Generated from $in.in; do not edit by hand.,g" -e 's,[@]datadir[@],/usr/local/share,g' ./Config.in >Config.tmp
+chmod +x Config.tmp
+chmod a-w Config.tmp
+mv -f Config.tmp Config.pm
+make[3]: Leaving directory '/tmp/automake-1.11/lib/Automake'
+make[2]: Leaving directory '/tmp/automake-1.11/lib/Automake'
+Making all in am
+make[2]: Entering directory '/tmp/automake-1.11/lib/am'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/tmp/automake-1.11/lib/am'
+make[2]: Entering directory '/tmp/automake-1.11/lib'
+make[2]: Nothing to be done for 'all-am'.
+make[2]: Leaving directory '/tmp/automake-1.11/lib'
+make[1]: Leaving directory '/tmp/automake-1.11/lib'
+Making all in .
+make[1]: Entering directory '/tmp/automake-1.11'
+rm -f automake automake.tmp
+sed -e 's,[@]APIVERSION[@],1.11,g' -e 's,[@]PACKAGE[@],automake,g' -e 's,[@]PATH_SEPARATOR[@],:,g' -e 's,[@]PERL[@],/usr/bin/perl,g' -e 's,[@]PERL_THREADS[@],1,g' -e 's,[@]SHELL[@],/bin/bash,g' -e 's,[@]VERSION[@],1.11,g' -e 's,[@]configure_input[@],Generated from automake.in; do not edit by hand.,g' -e 's,[@]datadir[@],/usr/local/share,g' ./automake.in >automake.tmp
+chmod +x automake.tmp
+chmod a-w automake.tmp
+mv -f automake.tmp automake
+rm -f aclocal aclocal.tmp
+sed -e 's,[@]APIVERSION[@],1.11,g' -e 's,[@]PACKAGE[@],automake,g' -e 's,[@]PATH_SEPARATOR[@],:,g' -e 's,[@]PERL[@],/usr/bin/perl,g' -e 's,[@]PERL_THREADS[@],1,g' -e 's,[@]SHELL[@],/bin/bash,g' -e 's,[@]VERSION[@],1.11,g' -e 's,[@]configure_input[@],Generated from aclocal.in; do not edit by hand.,g' -e 's,[@]datadir[@],/usr/local/share,g' ./aclocal.in >aclocal.tmp
+chmod +x aclocal.tmp
+chmod a-w aclocal.tmp
+mv -f aclocal.tmp aclocal
+make[1]: Leaving directory '/tmp/automake-1.11'
+Making all in doc
+make[1]: Entering directory '/tmp/automake-1.11/doc'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/tmp/automake-1.11/doc'
+Making all in m4
+make[1]: Entering directory '/tmp/automake-1.11/m4'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/tmp/automake-1.11/m4'
+Making all in tests
+make[1]: Entering directory '/tmp/automake-1.11/tests'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/tmp/automake-1.11/tests'
+Making install in lib
+make[1]: Entering directory '/tmp/automake-1.11/lib'
+Making install in Automake
+make[2]: Entering directory '/tmp/automake-1.11/lib/Automake'
+Making install in tests
+make[3]: Entering directory '/tmp/automake-1.11/lib/Automake/tests'
+make[4]: Entering directory '/tmp/automake-1.11/lib/Automake/tests'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/tmp/automake-1.11/lib/Automake/tests'
+make[3]: Leaving directory '/tmp/automake-1.11/lib/Automake/tests'
+make[3]: Entering directory '/tmp/automake-1.11/lib/Automake'
+make[4]: Entering directory '/tmp/automake-1.11/lib/Automake'
+make[4]: Nothing to be done for 'install-exec-am'.
+test -z "/usr/local/share/automake-1.11/Automake" || /bin/mkdir -p "/usr/local/share/automake-1.11/Automake"
+ /usr/bin/install -c -m 644 ChannelDefs.pm Channels.pm Condition.pm Configure_ac.pm DisjConditions.pm FileUtils.pm General.pm Item.pm ItemDef.pm Location.pm Options.pm Rule.pm RuleDef.pm Struct.pm Variable.pm VarDef.pm Version.pm XFile.pm Wrap.pm '/usr/local/share/automake-1.11/Automake'
+test -z "/usr/local/share/automake-1.11/Automake" || /bin/mkdir -p "/usr/local/share/automake-1.11/Automake"
+ /usr/bin/install -c -m 644 Config.pm '/usr/local/share/automake-1.11/Automake'
+make[4]: Leaving directory '/tmp/automake-1.11/lib/Automake'
+make[3]: Leaving directory '/tmp/automake-1.11/lib/Automake'
+make[2]: Leaving directory '/tmp/automake-1.11/lib/Automake'
+Making install in am
+make[2]: Entering directory '/tmp/automake-1.11/lib/am'
+make[3]: Entering directory '/tmp/automake-1.11/lib/am'
+make[3]: Nothing to be done for 'install-exec-am'.
+test -z "/usr/local/share/automake-1.11/am" || /bin/mkdir -p "/usr/local/share/automake-1.11/am"
+ /usr/bin/install -c -m 644 ansi2knr.am check.am check2.am clean-hdr.am clean.am compile.am configure.am data.am dejagnu.am depend.am depend2.am distdir.am footer.am header-vars.am header.am install.am inst-vars.am java.am lang-compile.am lex.am library.am libs.am libtool.am lisp.am ltlib.am ltlibrary.am mans-vars.am mans.am multilib.am program.am progs.am python.am remake-hdr.am scripts.am subdirs.am tags.am texi-vers.am texibuild.am texinfos.am vala.am '/usr/local/share/automake-1.11/am'
+ /usr/bin/install -c -m 644 yacc.am '/usr/local/share/automake-1.11/am'
+make[3]: Leaving directory '/tmp/automake-1.11/lib/am'
+make[2]: Leaving directory '/tmp/automake-1.11/lib/am'
+make[2]: Entering directory '/tmp/automake-1.11/lib'
+make[3]: Entering directory '/tmp/automake-1.11/lib'
+make[3]: Nothing to be done for 'install-exec-am'.
+test -z "/usr/local/share/automake-1.11" || /bin/mkdir -p "/usr/local/share/automake-1.11"
+ /usr/bin/install -c -m 644 COPYING INSTALL texinfo.tex ansi2knr.c ansi2knr.1 config-ml.in '/usr/local/share/automake-1.11'
+test -z "/usr/local/share/automake-1.11" || /bin/mkdir -p "/usr/local/share/automake-1.11"
+ /usr/bin/install -c -m 644 config.guess config.sub install-sh mdate-sh missing mkinstalldirs elisp-comp ylwrap acinstall depcomp compile py-compile symlink-tree '/usr/local/share/automake-1.11'
+make  install-data-hook
+make[4]: Entering directory '/tmp/automake-1.11/lib'
+ chmod +x /usr/local/share/automake-1.11/config.guess
+ chmod +x /usr/local/share/automake-1.11/config.sub
+ chmod +x /usr/local/share/automake-1.11/install-sh
+ chmod +x /usr/local/share/automake-1.11/mdate-sh
+ chmod +x /usr/local/share/automake-1.11/missing
+ chmod +x /usr/local/share/automake-1.11/mkinstalldirs
+ chmod +x /usr/local/share/automake-1.11/elisp-comp
+ chmod +x /usr/local/share/automake-1.11/ylwrap
+ chmod +x /usr/local/share/automake-1.11/acinstall
+ chmod +x /usr/local/share/automake-1.11/depcomp
+ chmod +x /usr/local/share/automake-1.11/compile
+ chmod +x /usr/local/share/automake-1.11/py-compile
+ chmod +x /usr/local/share/automake-1.11/symlink-tree
+make[4]: Leaving directory '/tmp/automake-1.11/lib'
+make[3]: Leaving directory '/tmp/automake-1.11/lib'
+make[2]: Leaving directory '/tmp/automake-1.11/lib'
+make[1]: Leaving directory '/tmp/automake-1.11/lib'
+Making install in .
+make[1]: Entering directory '/tmp/automake-1.11'
+make[2]: Entering directory '/tmp/automake-1.11'
+test -z "/usr/local/bin" || /bin/mkdir -p "/usr/local/bin"
+ /usr/bin/install -c automake aclocal '/usr/local/bin'
+make  install-exec-hook
+make[3]: Entering directory '/tmp/automake-1.11'
+ ln /usr/local/bin/automake /usr/local/bin/automake-1.11
+ ln /usr/local/bin/aclocal /usr/local/bin/aclocal-1.11
+make[3]: Leaving directory '/tmp/automake-1.11'
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/tmp/automake-1.11'
+make[1]: Leaving directory '/tmp/automake-1.11'
+Making install in doc
+make[1]: Entering directory '/tmp/automake-1.11/doc'
+make[2]: Entering directory '/tmp/automake-1.11/doc'
+make[2]: Nothing to be done for 'install-exec-am'.
+test -z "/usr/local/share/doc/automake" || /bin/mkdir -p "/usr/local/share/doc/automake"
+ /usr/bin/install -c -m 644 ./amhello-1.0.tar.gz '/usr/local/share/doc/automake'
+test -z "/usr/local/share/info" || /bin/mkdir -p "/usr/local/share/info"
+ /usr/bin/install -c -m 644 ./automake.info ./automake.info-1 ./automake.info-2 '/usr/local/share/info'
+ install-info --info-dir='/usr/local/share/info' '/usr/local/share/info/automake.info'
+test -z "/usr/local/share/man/man1" || /bin/mkdir -p "/usr/local/share/man/man1"
+ /usr/bin/install -c -m 644 ./aclocal.1 ./automake.1 ./aclocal-1.11.1 ./automake-1.11.1 '/usr/local/share/man/man1'
+make[2]: Leaving directory '/tmp/automake-1.11/doc'
+make[1]: Leaving directory '/tmp/automake-1.11/doc'
+Making install in m4
+make[1]: Entering directory '/tmp/automake-1.11/m4'
+make[2]: Entering directory '/tmp/automake-1.11/m4'
+make[2]: Nothing to be done for 'install-exec-am'.
+test -z "/usr/local/share/aclocal-1.11" || /bin/mkdir -p "/usr/local/share/aclocal-1.11"
+ /usr/bin/install -c -m 644 ../m4/amversion.m4 as.m4 auxdir.m4 ccstdc.m4 cond.m4 cond-if.m4 depend.m4 depout.m4 dmalloc.m4 gcj.m4 header.m4 init.m4 install-sh.m4 lead-dot.m4 lex.m4 lispdir.m4 maintainer.m4 make.m4 minuso.m4 missing.m4 mkdirp.m4 multi.m4 obsol-gt.m4 obsol-lt.m4 obsolete.m4 options.m4 protos.m4 python.m4 regex.m4 runlog.m4 sanity.m4 silent.m4 strip.m4 substnot.m4 tar.m4 upc.m4 vala.m4 '/usr/local/share/aclocal-1.11'
+make[2]: Leaving directory '/tmp/automake-1.11/m4'
+make[1]: Leaving directory '/tmp/automake-1.11/m4'
+Making install in tests
+make[1]: Entering directory '/tmp/automake-1.11/tests'
+make[2]: Entering directory '/tmp/automake-1.11/tests'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/tmp/automake-1.11/tests'
+make[1]: Leaving directory '/tmp/automake-1.11/tests'
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0
+100 46.3M  100 46.3M    0     0   954k      0  0:00:49  0:00:49 --:--:-- 1018k
+mecab-ko-dic-2.0.1-20150920/
+mecab-ko-dic-2.0.1-20150920/configure.ac
+mecab-ko-dic-2.0.1-20150920/Person-actor.csv
+mecab-ko-dic-2.0.1-20150920/IC.csv
+mecab-ko-dic-2.0.1-20150920/model.def
+mecab-ko-dic-2.0.1-20150920/user-dic/
+mecab-ko-dic-2.0.1-20150920/user-dic/place.csv
+mecab-ko-dic-2.0.1-20150920/user-dic/README.md
+mecab-ko-dic-2.0.1-20150920/user-dic/person.csv
+mecab-ko-dic-2.0.1-20150920/user-dic/nnp.csv
+mecab-ko-dic-2.0.1-20150920/Place.csv
+mecab-ko-dic-2.0.1-20150920/rewrite.def
+mecab-ko-dic-2.0.1-20150920/tools/
+mecab-ko-dic-2.0.1-20150920/tools/add-userdic.sh
+mecab-ko-dic-2.0.1-20150920/tools/mecab-bestn.sh
+mecab-ko-dic-2.0.1-20150920/tools/convert_for_using_store.sh
+mecab-ko-dic-2.0.1-20150920/right-id.def
+mecab-ko-dic-2.0.1-20150920/VX.csv
+mecab-ko-dic-2.0.1-20150920/XR.csv
+mecab-ko-dic-2.0.1-20150920/NP.csv
+mecab-ko-dic-2.0.1-20150920/XSN.csv
+mecab-ko-dic-2.0.1-20150920/feature.def
+mecab-ko-dic-2.0.1-20150920/README
+mecab-ko-dic-2.0.1-20150920/pos-id.def
+mecab-ko-dic-2.0.1-20150920/COPYING
+mecab-ko-dic-2.0.1-20150920/ETM.csv
+mecab-ko-dic-2.0.1-20150920/CoinedWord.csv
+mecab-ko-dic-2.0.1-20150920/Symbol.csv
+mecab-ko-dic-2.0.1-20150920/EC.csv
+mecab-ko-dic-2.0.1-20150920/INSTALL
+mecab-ko-dic-2.0.1-20150920/EF.csv
+mecab-ko-dic-2.0.1-20150920/unk.def
+mecab-ko-dic-2.0.1-20150920/J.csv
+mecab-ko-dic-2.0.1-20150920/ETN.csv
+mecab-ko-dic-2.0.1-20150920/NNBC.csv
+mecab-ko-dic-2.0.1-20150920/XSV.csv
+mecab-ko-dic-2.0.1-20150920/Group.csv
+mecab-ko-dic-2.0.1-20150920/dicrc
+mecab-ko-dic-2.0.1-20150920/VCP.csv
+mecab-ko-dic-2.0.1-20150920/EP.csv
+mecab-ko-dic-2.0.1-20150920/VV.csv
+mecab-ko-dic-2.0.1-20150920/NNP.csv
+mecab-ko-dic-2.0.1-20150920/NR.csv
+mecab-ko-dic-2.0.1-20150920/Preanalysis.csv
+mecab-ko-dic-2.0.1-20150920/Person.csv
+mecab-ko-dic-2.0.1-20150920/left-id.def
+mecab-ko-dic-2.0.1-20150920/Makefile.am
+mecab-ko-dic-2.0.1-20150920/NorthKorea.csv
+mecab-ko-dic-2.0.1-20150920/Inflect.csv
+mecab-ko-dic-2.0.1-20150920/configure
+mecab-ko-dic-2.0.1-20150920/VCN.csv
+mecab-ko-dic-2.0.1-20150920/MAJ.csv
+mecab-ko-dic-2.0.1-20150920/XSA.csv
+mecab-ko-dic-2.0.1-20150920/Foreign.csv
+mecab-ko-dic-2.0.1-20150920/NNB.csv
+mecab-ko-dic-2.0.1-20150920/VA.csv
+mecab-ko-dic-2.0.1-20150920/XPN.csv
+mecab-ko-dic-2.0.1-20150920/clean
+mecab-ko-dic-2.0.1-20150920/ChangeLog
+mecab-ko-dic-2.0.1-20150920/install-sh
+mecab-ko-dic-2.0.1-20150920/Wikipedia.csv
+mecab-ko-dic-2.0.1-20150920/autogen.sh
+mecab-ko-dic-2.0.1-20150920/Place-station.csv
+mecab-ko-dic-2.0.1-20150920/Place-address.csv
+mecab-ko-dic-2.0.1-20150920/AUTHORS
+mecab-ko-dic-2.0.1-20150920/Hanja.csv
+mecab-ko-dic-2.0.1-20150920/MM.csv
+mecab-ko-dic-2.0.1-20150920/missing
+mecab-ko-dic-2.0.1-20150920/.keep
+mecab-ko-dic-2.0.1-20150920/char.def
+mecab-ko-dic-2.0.1-20150920/matrix.def
+mecab-ko-dic-2.0.1-20150920/NEWS
+mecab-ko-dic-2.0.1-20150920/MAG.csv
+mecab-ko-dic-2.0.1-20150920/NNG.csv
+mecab-ko-dic-2.0.1-20150920/Makefile.in
+Looking in current directory for macros.
+main::scan_file() called too early to check prototype at /usr/local/bin/aclocal line 618.
+Useless use of /d modifier in transliteration operator at /usr/local/share/automake-1.11/Automake/Wrap.pm line 58.
+Unescaped left brace in regex is deprecated, passed through in regex; marked by <-- HERE in m/\${ <-- HERE ([^ \t=:+{}]+)}/ at /usr/local/bin/automake line 4113.
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking for mecab-config... /usr/local/bin/mecab-config
+configure: creating ./config.status
+config.status: creating Makefile
+/usr/local/libexec/mecab/mecab-dict-index -d . -o . -f UTF-8 -t UTF-8
+/usr/local/libexec/mecab/mecab-dict-index: error while loading shared libraries: libmecab.so.2: cannot open shared object file: No such file or directory
+Makefile:501: recipe for target 'model.bin' failed
+make: *** [model.bin] Error 127
+/usr/local/libexec/mecab/mecab-dict-index -d . -o . -f UTF-8 -t UTF-8
+/usr/local/libexec/mecab/mecab-dict-index: error while loading shared libraries: libmecab.so.2: cannot open shared object file: No such file or directory
+Makefile:501: recipe for target 'model.bin' failed
+make: *** [model.bin] Error 127
+Cloning into 'mecab-python-0.996'...
+remote: Counting objects: 17, done.
+remote: Compressing objects: 100% (16/16), done.
+remote: Total 17 (delta 3), reused 0 (delta 0)
+Unpacking objects: 100% (17/17), done.
+Checking connectivity... done.
+running build
+running build_py
+creating build
+creating build/lib.linux-x86_64-2.7
+copying MeCab.py -> build/lib.linux-x86_64-2.7
+running build_ext
+building '_MeCab' extension
+creating build/temp.linux-x86_64-2.7
+x86_64-linux-gnu-gcc -pthread -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fno-strict-aliasing -Wdate-time -D_FORTIFY_SOURCE=2 -g -fstack-protector-strong -Wformat -Werror=format-security -fPIC -I/usr/local/include -I/usr/include/python2.7 -c MeCab_wrap.cxx -o build/temp.linux-x86_64-2.7/MeCab_wrap.o
+cc1plus: warning: command line option ‘-Wstrict-prototypes’ is valid for C/ObjC but not for C++
+c++ -pthread -shared -Wl,-O1 -Wl,-Bsymbolic-functions -Wl,-Bsymbolic-functions -Wl,-z,relro -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -Wdate-time -D_FORTIFY_SOURCE=2 -g -fstack-protector-strong -Wformat -Werror=format-security -Wl,-Bsymbolic-functions -Wl,-z,relro -Wdate-time -D_FORTIFY_SOURCE=2 -g -fstack-protector-strong -Wformat -Werror=format-security build/temp.linux-x86_64-2.7/MeCab_wrap.o -L/usr/local/lib -lmecab -lstdc++ -o build/lib.linux-x86_64-2.7/_MeCab.so
+running install
+running build
+running build_py
+running build_ext
+running install_lib
+copying build/lib.linux-x86_64-2.7/MeCab.py -> /usr/local/lib/python2.7/dist-packages
+error: [Errno 13] Permission denied: '/usr/local/lib/python2.7/dist-packages/MeCab.py'
+running build
+running build_py
+creating build/lib.linux-x86_64-3.5
+copying MeCab.py -> build/lib.linux-x86_64-3.5
+running build_ext
+building '_MeCab' extension
+creating build/temp.linux-x86_64-3.5
+x86_64-linux-gnu-gcc -pthread -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -g -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -fPIC -I/usr/local/include -I/usr/include/python3.5m -c MeCab_wrap.cxx -o build/temp.linux-x86_64-3.5/MeCab_wrap.o
+cc1plus: warning: command line option ‘-Wstrict-prototypes’ is valid for C/ObjC but not for C++
+x86_64-linux-gnu-g++ -pthread -shared -Wl,-O1 -Wl,-Bsymbolic-functions -Wl,-Bsymbolic-functions -Wl,-z,relro -Wl,-Bsymbolic-functions -Wl,-z,relro -g -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 build/temp.linux-x86_64-3.5/MeCab_wrap.o -L/usr/local/lib -lmecab -lstdc++ -o build/lib.linux-x86_64-3.5/_MeCab.cpython-35m-x86_64-linux-gnu.so
+running install
+running build
+running build_py
+running build_ext
+running install_lib
+copying build/lib.linux-x86_64-3.5/MeCab.py -> /usr/local/lib/python3.5/dist-packages
+error: could not create '/usr/local/lib/python3.5/dist-packages/MeCab.py': Permission denied
+pi@HappyHome:/mnt/e/Data/win10linux/mecab$
