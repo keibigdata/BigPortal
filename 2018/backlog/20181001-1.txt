@@ -1,0 +1,257 @@
+root@DataLX01:~# !pip install pygdf
+pip install matplotlib -U install pygdf
+Looking in indexes: http://ftp.daumkakao.com/pypi/simple
+Requirement already up-to-date: matplotlib in /usr/local/lib/python3.6/dist-packages (3.0.0)
+Collecting install
+  Could not find a version that satisfies the requirement install (from versions: )
+No matching distribution found for install
+root@DataLX01:~# !pip install pygdf -U
+pip install matplotlib -U install pygdf -U
+Looking in indexes: http://ftp.daumkakao.com/pypi/simple
+Requirement already up-to-date: matplotlib in /usr/local/lib/python3.6/dist-packages (3.0.0)
+Collecting install
+  Could not find a version that satisfies the requirement install (from versions: )
+No matching distribution found for install
+root@DataLX01:~# ls
+5527940.pdf        download           jupyterhub_cookie_secret  naver_news.tar.gz  python       test.txt
+a.out              installer          libgfortran.a             node_modules       result       venv
+customized_konlpy  jupyterhub.sqlite  lsd_slam                  pip                rosbuild_ws
+root@DataLX01:~# cd python/
+root@DataLX01:~/python# dir
+pdfminer
+root@DataLX01:~/python# git clone https://github.com/gpuopenanalytics/pygdf.git
+'pygdf'에 복제합니다...
+remote: Enumerating objects: 3953, done.
+remote: Total 3953 (delta 0), reused 0 (delta 0), pack-reused 3953
+오브젝트를 받는 중: 100% (3953/3953), 2.80 MiB | 719.00 KiB/s, 완료.
+델타를 알아내는 중: 100% (2853/2853), 완료.
+연결을 확인하는 중입니다... 완료.
+root@DataLX01:~/python# cd pygdf/
+root@DataLX01:~/python/pygdf# python setup.py install
+running install
+running bdist_egg
+running egg_info
+creating pygdf.egg-info
+writing pygdf.egg-info/PKG-INFO
+writing dependency_links to pygdf.egg-info/dependency_links.txt
+writing requirements to pygdf.egg-info/requires.txt
+writing top-level names to pygdf.egg-info/top_level.txt
+writing manifest file 'pygdf.egg-info/SOURCES.txt'
+reading manifest file 'pygdf.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+writing manifest file 'pygdf.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-x86_64/egg
+running install_lib
+running build_py
+creating build
+creating build/lib
+creating build/lib/pygdf
+copying pygdf/dataframe.py -> build/lib/pygdf
+copying pygdf/_version.py -> build/lib/pygdf
+copying pygdf/categorical.py -> build/lib/pygdf
+copying pygdf/datetime.py -> build/lib/pygdf
+copying pygdf/applyutils.py -> build/lib/pygdf
+copying pygdf/buffer.py -> build/lib/pygdf
+copying pygdf/columnops.py -> build/lib/pygdf
+copying pygdf/queryutils.py -> build/lib/pygdf
+copying pygdf/formatting.py -> build/lib/pygdf
+copying pygdf/docutils.py -> build/lib/pygdf
+copying pygdf/column.py -> build/lib/pygdf
+copying pygdf/serialize.py -> build/lib/pygdf
+copying pygdf/utils.py -> build/lib/pygdf
+copying pygdf/numerical.py -> build/lib/pygdf
+copying pygdf/gpu_ipc_broker.py -> build/lib/pygdf
+copying pygdf/libgdf_groupby.py -> build/lib/pygdf
+copying pygdf/groupby.py -> build/lib/pygdf
+copying pygdf/__init__.py -> build/lib/pygdf
+copying pygdf/cudautils.py -> build/lib/pygdf
+copying pygdf/series.py -> build/lib/pygdf
+copying pygdf/_gdf.py -> build/lib/pygdf
+copying pygdf/multi.py -> build/lib/pygdf
+copying pygdf/gpuarrow.py -> build/lib/pygdf
+copying pygdf/settings.py -> build/lib/pygdf
+copying pygdf/index.py -> build/lib/pygdf
+creating build/lib/pygdf/tests
+copying pygdf/tests/test_stats.py -> build/lib/pygdf/tests
+copying pygdf/tests/test_binops.py -> build/lib/pygdf/tests
+copying pygdf/tests/test_onehot.py -> build/lib/pygdf/tests
+copying pygdf/tests/test_categorical.py -> build/lib/pygdf/tests
+copying pygdf/tests/test_datetime.py -> build/lib/pygdf/tests
+copying pygdf/tests/test_unaops.py -> build/lib/pygdf/tests
+copying pygdf/tests/utils.py -> build/lib/pygdf/tests
+copying pygdf/tests/test_factorize.py -> build/lib/pygdf/tests
+copying pygdf/tests/test_applymap.py -> build/lib/pygdf/tests
+copying pygdf/tests/test_numpy_interop.py -> build/lib/pygdf/tests
+copying pygdf/tests/test_sparse_df.py -> build/lib/pygdf/tests
+copying pygdf/tests/test_joining.py -> build/lib/pygdf/tests
+copying pygdf/tests/__init__.py -> build/lib/pygdf/tests
+copying pygdf/tests/test_gpu_arrow_parser.py -> build/lib/pygdf/tests
+copying pygdf/tests/test_query.py -> build/lib/pygdf/tests
+copying pygdf/tests/test_label_encode.py -> build/lib/pygdf/tests
+copying pygdf/tests/test_settings.py -> build/lib/pygdf/tests
+copying pygdf/tests/test_pandas_interop.py -> build/lib/pygdf/tests
+copying pygdf/tests/test_libgdf_groupby.py -> build/lib/pygdf/tests
+copying pygdf/tests/test_sorting.py -> build/lib/pygdf/tests
+copying pygdf/tests/test_multi.py -> build/lib/pygdf/tests
+copying pygdf/tests/test_groupby.py -> build/lib/pygdf/tests
+copying pygdf/tests/test_pickling.py -> build/lib/pygdf/tests
+copying pygdf/tests/test_dataframe.py -> build/lib/pygdf/tests
+copying pygdf/tests/test_serialize.py -> build/lib/pygdf/tests
+copying pygdf/tests/test_cuda_apply.py -> build/lib/pygdf/tests
+copying pygdf/tests/test_index.py -> build/lib/pygdf/tests
+UPDATING build/lib/pygdf/_version.py
+set build/lib/pygdf/_version.py to '0.1.0a3+155.g327a05f'
+creating build/bdist.linux-x86_64
+creating build/bdist.linux-x86_64/egg
+creating build/bdist.linux-x86_64/egg/pygdf
+copying build/lib/pygdf/dataframe.py -> build/bdist.linux-x86_64/egg/pygdf
+copying build/lib/pygdf/_version.py -> build/bdist.linux-x86_64/egg/pygdf
+copying build/lib/pygdf/categorical.py -> build/bdist.linux-x86_64/egg/pygdf
+copying build/lib/pygdf/datetime.py -> build/bdist.linux-x86_64/egg/pygdf
+copying build/lib/pygdf/applyutils.py -> build/bdist.linux-x86_64/egg/pygdf
+copying build/lib/pygdf/buffer.py -> build/bdist.linux-x86_64/egg/pygdf
+copying build/lib/pygdf/columnops.py -> build/bdist.linux-x86_64/egg/pygdf
+copying build/lib/pygdf/queryutils.py -> build/bdist.linux-x86_64/egg/pygdf
+copying build/lib/pygdf/formatting.py -> build/bdist.linux-x86_64/egg/pygdf
+copying build/lib/pygdf/docutils.py -> build/bdist.linux-x86_64/egg/pygdf
+copying build/lib/pygdf/column.py -> build/bdist.linux-x86_64/egg/pygdf
+copying build/lib/pygdf/serialize.py -> build/bdist.linux-x86_64/egg/pygdf
+copying build/lib/pygdf/utils.py -> build/bdist.linux-x86_64/egg/pygdf
+copying build/lib/pygdf/numerical.py -> build/bdist.linux-x86_64/egg/pygdf
+copying build/lib/pygdf/gpu_ipc_broker.py -> build/bdist.linux-x86_64/egg/pygdf
+copying build/lib/pygdf/libgdf_groupby.py -> build/bdist.linux-x86_64/egg/pygdf
+copying build/lib/pygdf/groupby.py -> build/bdist.linux-x86_64/egg/pygdf
+copying build/lib/pygdf/__init__.py -> build/bdist.linux-x86_64/egg/pygdf
+copying build/lib/pygdf/cudautils.py -> build/bdist.linux-x86_64/egg/pygdf
+copying build/lib/pygdf/series.py -> build/bdist.linux-x86_64/egg/pygdf
+copying build/lib/pygdf/_gdf.py -> build/bdist.linux-x86_64/egg/pygdf
+copying build/lib/pygdf/multi.py -> build/bdist.linux-x86_64/egg/pygdf
+copying build/lib/pygdf/gpuarrow.py -> build/bdist.linux-x86_64/egg/pygdf
+copying build/lib/pygdf/settings.py -> build/bdist.linux-x86_64/egg/pygdf
+creating build/bdist.linux-x86_64/egg/pygdf/tests
+copying build/lib/pygdf/tests/test_stats.py -> build/bdist.linux-x86_64/egg/pygdf/tests
+copying build/lib/pygdf/tests/test_binops.py -> build/bdist.linux-x86_64/egg/pygdf/tests
+copying build/lib/pygdf/tests/test_onehot.py -> build/bdist.linux-x86_64/egg/pygdf/tests
+copying build/lib/pygdf/tests/test_categorical.py -> build/bdist.linux-x86_64/egg/pygdf/tests
+copying build/lib/pygdf/tests/test_datetime.py -> build/bdist.linux-x86_64/egg/pygdf/tests
+copying build/lib/pygdf/tests/test_unaops.py -> build/bdist.linux-x86_64/egg/pygdf/tests
+copying build/lib/pygdf/tests/utils.py -> build/bdist.linux-x86_64/egg/pygdf/tests
+copying build/lib/pygdf/tests/test_factorize.py -> build/bdist.linux-x86_64/egg/pygdf/tests
+copying build/lib/pygdf/tests/test_applymap.py -> build/bdist.linux-x86_64/egg/pygdf/tests
+copying build/lib/pygdf/tests/test_numpy_interop.py -> build/bdist.linux-x86_64/egg/pygdf/tests
+copying build/lib/pygdf/tests/test_sparse_df.py -> build/bdist.linux-x86_64/egg/pygdf/tests
+copying build/lib/pygdf/tests/test_joining.py -> build/bdist.linux-x86_64/egg/pygdf/tests
+copying build/lib/pygdf/tests/__init__.py -> build/bdist.linux-x86_64/egg/pygdf/tests
+copying build/lib/pygdf/tests/test_gpu_arrow_parser.py -> build/bdist.linux-x86_64/egg/pygdf/tests
+copying build/lib/pygdf/tests/test_query.py -> build/bdist.linux-x86_64/egg/pygdf/tests
+copying build/lib/pygdf/tests/test_label_encode.py -> build/bdist.linux-x86_64/egg/pygdf/tests
+copying build/lib/pygdf/tests/test_settings.py -> build/bdist.linux-x86_64/egg/pygdf/tests
+copying build/lib/pygdf/tests/test_pandas_interop.py -> build/bdist.linux-x86_64/egg/pygdf/tests
+copying build/lib/pygdf/tests/test_libgdf_groupby.py -> build/bdist.linux-x86_64/egg/pygdf/tests
+copying build/lib/pygdf/tests/test_sorting.py -> build/bdist.linux-x86_64/egg/pygdf/tests
+copying build/lib/pygdf/tests/test_multi.py -> build/bdist.linux-x86_64/egg/pygdf/tests
+copying build/lib/pygdf/tests/test_groupby.py -> build/bdist.linux-x86_64/egg/pygdf/tests
+copying build/lib/pygdf/tests/test_pickling.py -> build/bdist.linux-x86_64/egg/pygdf/tests
+copying build/lib/pygdf/tests/test_dataframe.py -> build/bdist.linux-x86_64/egg/pygdf/tests
+copying build/lib/pygdf/tests/test_serialize.py -> build/bdist.linux-x86_64/egg/pygdf/tests
+copying build/lib/pygdf/tests/test_cuda_apply.py -> build/bdist.linux-x86_64/egg/pygdf/tests
+copying build/lib/pygdf/tests/test_index.py -> build/bdist.linux-x86_64/egg/pygdf/tests
+copying build/lib/pygdf/index.py -> build/bdist.linux-x86_64/egg/pygdf
+byte-compiling build/bdist.linux-x86_64/egg/pygdf/dataframe.py to dataframe.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pygdf/_version.py to _version.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pygdf/categorical.py to categorical.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pygdf/datetime.py to datetime.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pygdf/applyutils.py to applyutils.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pygdf/buffer.py to buffer.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pygdf/columnops.py to columnops.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pygdf/queryutils.py to queryutils.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pygdf/formatting.py to formatting.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pygdf/docutils.py to docutils.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pygdf/column.py to column.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pygdf/serialize.py to serialize.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pygdf/utils.py to utils.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pygdf/numerical.py to numerical.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pygdf/gpu_ipc_broker.py to gpu_ipc_broker.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pygdf/libgdf_groupby.py to libgdf_groupby.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pygdf/groupby.py to groupby.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pygdf/__init__.py to __init__.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pygdf/cudautils.py to cudautils.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pygdf/series.py to series.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pygdf/_gdf.py to _gdf.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pygdf/multi.py to multi.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pygdf/gpuarrow.py to gpuarrow.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pygdf/settings.py to settings.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pygdf/tests/test_stats.py to test_stats.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pygdf/tests/test_binops.py to test_binops.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pygdf/tests/test_onehot.py to test_onehot.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pygdf/tests/test_categorical.py to test_categorical.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pygdf/tests/test_datetime.py to test_datetime.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pygdf/tests/test_unaops.py to test_unaops.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pygdf/tests/utils.py to utils.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pygdf/tests/test_factorize.py to test_factorize.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pygdf/tests/test_applymap.py to test_applymap.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pygdf/tests/test_numpy_interop.py to test_numpy_interop.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pygdf/tests/test_sparse_df.py to test_sparse_df.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pygdf/tests/test_joining.py to test_joining.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pygdf/tests/__init__.py to __init__.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pygdf/tests/test_gpu_arrow_parser.py to test_gpu_arrow_parser.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pygdf/tests/test_query.py to test_query.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pygdf/tests/test_label_encode.py to test_label_encode.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pygdf/tests/test_settings.py to test_settings.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pygdf/tests/test_pandas_interop.py to test_pandas_interop.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pygdf/tests/test_libgdf_groupby.py to test_libgdf_groupby.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pygdf/tests/test_sorting.py to test_sorting.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pygdf/tests/test_multi.py to test_multi.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pygdf/tests/test_groupby.py to test_groupby.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pygdf/tests/test_pickling.py to test_pickling.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pygdf/tests/test_dataframe.py to test_dataframe.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pygdf/tests/test_serialize.py to test_serialize.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pygdf/tests/test_cuda_apply.py to test_cuda_apply.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pygdf/tests/test_index.py to test_index.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pygdf/index.py to index.cpython-36.pyc
+creating build/bdist.linux-x86_64/egg/EGG-INFO
+copying pygdf.egg-info/PKG-INFO -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying pygdf.egg-info/SOURCES.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying pygdf.egg-info/dependency_links.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying pygdf.egg-info/requires.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying pygdf.egg-info/top_level.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+zip_safe flag not set; analyzing archive contents...
+pygdf.tests.__pycache__.test_sparse_df.cpython-36: module references __file__
+creating dist
+creating 'dist/pygdf-0.1.0a3+155.g327a05f-py3.6.egg' and adding 'build/bdist.linux-x86_64/egg' to it
+removing 'build/bdist.linux-x86_64/egg' (and everything under it)
+Processing pygdf-0.1.0a3+155.g327a05f-py3.6.egg
+creating /usr/local/lib/python3.6/dist-packages/pygdf-0.1.0a3+155.g327a05f-py3.6.egg
+Extracting pygdf-0.1.0a3+155.g327a05f-py3.6.egg to /usr/local/lib/python3.6/dist-packages
+Adding pygdf 0.1.0a3+155.g327a05f to easy-install.pth file
+
+Installed /usr/local/lib/python3.6/dist-packages/pygdf-0.1.0a3+155.g327a05f-py3.6.egg
+Processing dependencies for pygdf==0.1.0a3+155.g327a05f
+Searching for numba
+Reading https://pypi.org/simple/numba/
+Downloading https://files.pythonhosted.org/packages/83/ac/c87f229ae7f29fbf85bc5405f85ec7097c979c021dac52f2d5206834a899/numba-0.40.0-cp36-cp36m-manylinux1_x86_64.whl#sha256=addbf4d8ce77aa600868f20d32dfec72de4e3fa5cfbceceeaa244093878b2a5d
+Best match: numba 0.40.0
+Processing numba-0.40.0-cp36-cp36m-manylinux1_x86_64.whl
+Installing numba-0.40.0-cp36-cp36m-manylinux1_x86_64.whl to /usr/local/lib/python3.6/dist-packages
+writing requirements to /usr/local/lib/python3.6/dist-packages/numba-0.40.0-py3.6-linux-x86_64.egg/EGG-INFO/requires.txt
+Adding numba 0.40.0 to easy-install.pth file
+Installing pycc script to /usr/local/bin
+Installing numba script to /usr/local/bin
+
+Installed /usr/local/lib/python3.6/dist-packages/numba-0.40.0-py3.6-linux-x86_64.egg
+Searching for llvmlite>=0.25.0dev0
+Reading https://pypi.org/simple/llvmlite/
+Downloading https://files.pythonhosted.org/packages/34/fb/f9c2e9e0ef2b54c52f0b727cf6af75b68c3d7ddb6d88c8d557b1b16bc1ab/llvmlite-0.25.0-cp36-cp36m-manylinux1_x86_64.whl#sha256=950f44f2b33f04c91417b9846271decc66adfaa16849ca3522a4c51e0037a022
+Best match: llvmlite 0.25.0
+Processing llvmlite-0.25.0-cp36-cp36m-manylinux1_x86_64.whl
+Installing llvmlite-0.25.0-cp36-cp36m-manylinux1_x86_64.whl to /usr/local/lib/python3.6/dist-packages
+Adding llvmlite 0.25.0 to easy-install.pth file
+
+Installed /usr/local/lib/python3.6/dist-packages/llvmlite-0.25.0-py3.6-linux-x86_64.egg
+Searching for numpy==1.14.3
+Best match: numpy 1.14.3
+Adding numpy 1.14.3 to easy-install.pth file
+
+Using /usr/local/lib/python3.6/dist-packages
+Finished processing dependencies for pygdf==0.1.0a3+155.g327a05f
+root@DataLX01:~/python/pygdf# 
