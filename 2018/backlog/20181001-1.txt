@@ -255,3 +255,14 @@ Adding numpy 1.14.3 to easy-install.pth file
 Using /usr/local/lib/python3.6/dist-packages
 Finished processing dependencies for pygdf==0.1.0a3+155.g327a05f
 root@DataLX01:~/python/pygdf# 
+
+root@DataLX01:~/python/pygdf# pip install pyarrow
+Looking in indexes: http://ftp.daumkakao.com/pypi/simple
+Collecting pyarrow
+  Downloading http://mirror.kakao.com/pypi/packages/c9/b8/076ebd968f3c6d4e9b6e5de696f0b19964a3d4b7dc020fd32db4e868ad74/pyarrow-0.10.0-cp36-cp36m-manylinux1_x86_64.whl (11.6MB)
+    100% |████████████████████████████████| 11.6MB 12.6MB/s 
+Requirement already satisfied: six>=1.0.0 in /usr/local/lib/python3.6/dist-packages (from pyarrow) (1.11.0)
+Requirement already satisfied: numpy>=1.10 in /usr/local/lib/python3.6/dist-packages (from pyarrow) (1.14.3)
+Installing collected packages: pyarrow
+Successfully installed pyarrow-0.10.0
+root@DataLX01:~/python/pygdf# 
