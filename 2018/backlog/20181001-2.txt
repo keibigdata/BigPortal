@@ -1,0 +1,77 @@
+root@DataLX01:~/python/pygdf# git clone --recurse-submodules git@github.com:gpuopenanalytics/libgdf.git
+'libgdf'에 복제합니다...
+/etc/ssh/ssh_config: line 57: Bad configuration option: banner
+/etc/ssh/ssh_config: terminating, 1 bad configuration options
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+root@DataLX01:~/python/pygdf# ls
+Dockerfile   README.md    conda-recipes       docs       org             readthedocs.yml  thirdparty
+LICENSE      __pycache__  conda_environments  img        pygdf           setup.cfg        travisci
+MANIFEST.in  build        dist                notebooks  pygdf.egg-info  setup.py         versioneer.py
+root@DataLX01:~/python/pygdf# cd ..
+root@DataLX01:~/python# ls
+pdfminer  pygdf
+root@DataLX01:~/python# git clone --recurse-submodules https://github.com/gpuopenanalytics/libgdf
+'libgdf'에 복제합니다...
+remote: Enumerating objects: 7, done.
+remote: Counting objects: 100% (7/7), done.
+remote: Compressing objects: 100% (4/4), done.
+remote: Total 5342 (delta 4), reused 4 (delta 3), pack-reused 5335
+오브젝트를 받는 중: 100% (5342/5342), 1.80 MiB | 840.00 KiB/s, 완료.
+델타를 알아내는 중: 100% (3359/3359), 완료.
+연결을 확인하는 중입니다... 완료.
+'thirdparty/cub' 경로에 (https://github.com/NVlabs/cub.git) 대해 등록된 'thirdparty/cub' 하위 모듈
+'thirdparty/moderngpu' 경로에 (https://github.com/moderngpu/moderngpu.git) 대해 등록된 'thirdparty/moderngpu' 하위 모듈
+'thirdparty/cub'에 복제합니다...
+remote: Enumerating objects: 32642, done.
+remote: Total 32642 (delta 0), reused 0 (delta 0), pack-reused 32642
+오브젝트를 받는 중: 100% (32642/32642), 16.46 MiB | 3.40 MiB/s, 완료.
+델타를 알아내는 중: 100% (28620/28620), 완료.
+연결을 확인하는 중입니다... 완료.
+하위 모듈 경로 'thirdparty/cub': 'b165e1fb11eeea64ccf95053e40f2424312599cc' 체크아웃
+'thirdparty/moderngpu'에 복제합니다...
+remote: Enumerating objects: 1287, done.
+remote: Total 1287 (delta 0), reused 0 (delta 0), pack-reused 1287
+오브젝트를 받는 중: 100% (1287/1287), 6.72 MiB | 3.12 MiB/s, 완료.
+델타를 알아내는 중: 100% (643/643), 완료.
+연결을 확인하는 중입니다... 완료.
+하위 모듈 경로 'thirdparty/moderngpu': 'c1fd31df008d79f727483e795b1ee1ce45b782ca' 체크아웃
+root@DataLX01:~/python# 
+
+root@DataLX01:~/python# cd libgdf/
+root@DataLX01:~/python/libgdf# git submodule update --init --recursive
+
+root@DataLX01:~/python/libgdf# apt-get install libboost-all-dev
+패키지 목록을 읽는 중입니다... 완료
+의존성 트리를 만드는 중입니다       
+상태 정보를 읽는 중입니다... 완료
+libboost-all-dev is already the newest version (1.58.0.1ubuntu1).
+다음 패키지가 자동으로 설치되었지만 더 이상 필요하지 않습니다:
+  cuda-9-1 cuda-command-line-tools-9-1 cuda-compiler-9-1 cuda-cublas-9-1 cuda-cublas-dev-9-1 cuda-cudart-9-1
+  cuda-cudart-dev-9-1 cuda-cufft-9-1 cuda-cufft-dev-9-1 cuda-cuobjdump-9-1 cuda-cupti-9-1 cuda-curand-9-1
+  cuda-curand-dev-9-1 cuda-cusolver-9-1 cuda-cusolver-dev-9-1 cuda-cusparse-9-1 cuda-cusparse-dev-9-1
+  cuda-demo-suite-9-1 cuda-documentation-9-1 cuda-driver-dev-9-1 cuda-gdb-9-1 cuda-gpu-library-advisor-9-1
+  cuda-libraries-9-1 cuda-libraries-dev-9-1 cuda-license-9-1 cuda-memcheck-9-1 cuda-misc-headers-9-1 cuda-npp-9-1
+  cuda-npp-dev-9-1 cuda-nsight-9-1 cuda-nvcc-9-1 cuda-nvdisasm-9-1 cuda-nvgraph-9-1 cuda-nvgraph-dev-9-1
+  cuda-nvml-dev-9-1 cuda-nvprof-9-1 cuda-nvprune-9-1 cuda-nvrtc-9-1 cuda-nvrtc-dev-9-1 cuda-nvtx-9-1 cuda-nvvp-9-1
+  cuda-runtime-9-1 cuda-samples-9-1 cuda-toolkit-9-1 cuda-tools-9-1 cuda-visual-tools-9-1 libllvm5.0
+  linux-headers-4.4.0-119 linux-headers-4.4.0-119-generic linux-image-4.4.0-119-generic
+  linux-image-extra-4.4.0-119-generic linux-signed-image-4.4.0-119-generic
+Use 'apt autoremove' to remove them.
+0개 업그레이드, 0개 새로 설치, 0개 제거 및 67개 업그레이드 안 함.
+root@DataLX01:~/python/libgdf# 
+
+root@DataLX01:~/python/libgdf# pip install pygdf -U
+Looking in indexes: http://ftp.daumkakao.com/pypi/simple
+Requirement already up-to-date: pygdf in /usr/local/lib/python3.6/dist-packages/pygdf-0.1.0a3+155.g327a05f-py3.6.egg (0.1.0a3+155.g327a05f)
+Requirement already satisfied, skipping upgrade: numba in /usr/local/lib/python3.6/dist-packages/numba-0.40.0-py3.6-linux-x86_64.egg (from pygdf) (0.40.0)
+Requirement already satisfied, skipping upgrade: llvmlite>=0.25.0dev0 in /usr/local/lib/python3.6/dist-packages/llvmlite-0.25.0-py3.6-linux-x86_64.egg (from numba->pygdf) (0.25.0)
+Requirement already satisfied, skipping upgrade: numpy in /usr/local/lib/python3.6/dist-packages (from numba->pygdf) (1.14.3)
+root@DataLX01:~/python/libgdf# pip install pyarrow -U
+Looking in indexes: http://ftp.daumkakao.com/pypi/simple
+Requirement already up-to-date: pyarrow in /usr/local/lib/python3.6/dist-packages (0.10.0)
+Requirement already satisfied, skipping upgrade: numpy>=1.10 in /usr/local/lib/python3.6/dist-packages (from pyarrow) (1.14.3)
+Requirement already satisfied, skipping upgrade: six>=1.0.0 in /usr/local/lib/python3.6/dist-packages (from pyarrow) (1.11.0)
+root@DataLX01:~/python/libgdf# 
