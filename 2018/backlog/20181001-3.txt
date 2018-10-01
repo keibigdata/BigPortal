@@ -1,0 +1,28 @@
+root@DataLX01:~/python/libgdf# pip install ipython-autotime -U
+Looking in indexes: http://ftp.daumkakao.com/pypi/simple
+Collecting ipython-autotime
+  Downloading http://mirror.kakao.com/pypi/packages/08/4f/860cf6b6330ecb149911bb22e13ffb0c4400667acab622e5a20755578af5/ipython-autotime-0.1.tar.gz
+Building wheels for collected packages: ipython-autotime
+  Running setup.py bdist_wheel for ipython-autotime ... done
+  Stored in directory: /root/.cache/pip/wheels/64/fc/da/b4574b203c14d8fc09f9be677763dd4580771873653c300d6f
+Successfully built ipython-autotime
+Installing collected packages: ipython-autotime
+Successfully installed ipython-autotime-0.1
+root@DataLX01:~/python/libgdf# 
+
+root@DataLX01:~/python/libgdf# pip install pyspark -U
+Looking in indexes: http://ftp.daumkakao.com/pypi/simple
+Collecting pyspark
+  Downloading http://mirror.kakao.com/pypi/packages/5e/cb/d8ff49ba885e2c88b8cf2967edd84235ffa9ac301bffef657dfa5605a112/pyspark-2.3.2.tar.gz (211.9MB)
+    100% |████████████████████████████████| 211.9MB 11.2MB/s 
+Collecting py4j==0.10.7 (from pyspark)
+  Downloading http://mirror.kakao.com/pypi/packages/e3/53/c737818eb9a7dc32a7cd4f1396e787bd94200c3997c72c1dbe028587bd76/py4j-0.10.7-py2.py3-none-any.whl (197kB)
+    100% |████████████████████████████████| 204kB 8.2MB/s 
+Building wheels for collected packages: pyspark
+  Running setup.py bdist_wheel for pyspark ... done
+  Stored in directory: /root/.cache/pip/wheels/f5/36/77/246ef83876403d09f46004020fb8b97f0e2d3753ea19bff597
+Successfully built pyspark
+Installing collected packages: py4j, pyspark
+Successfully installed py4j-0.10.7 pyspark-2.3.2
+root@DataLX01:~/python/libgdf#
+
