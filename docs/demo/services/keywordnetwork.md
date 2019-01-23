@@ -19,11 +19,12 @@
    분류체계는 확인하고 싶은 CATEGOTY 값을 입력하고 'Do filtering'을 클릭합니다.  
 ![환경연구키워드분석_필터링](./imgs/환경연구키워드분석_필터링.png)    
 3) 데이터 설정 <b>전</b>·후 여러가지 설정을 적용할 수 있습니다.  
-(1) SEED : 동일한 경우, 동일한 결과를 확인할 수 있습니다.  
-(2) Suppot : 기본값은 0.01이며, 설정값으로 시작하는 값만 표시  
-(3) Conf : 기본값은 0.01, 설정값 이상만 표시  
-(4) # of relation : 목록개수  
-(5) Stop Words : 제거할 단어  
+(1) SEED : 동일한 데이터에 동일한 SEED 값을 적용할 경우, 매번 동일한 결과를 확인할 수 있습니다.  
+(2) Suppot : 기본값은 0.01이며, 설정값으로 시작하는 값만 표시합니다.  
+(3) Conf : 기본값은 0.01, 설정값 이상만 표시합니다.  
+(4) # of relation : 화면에 표시되는 목록의 개수를 지정할 수 있습니다.  
+(5) Stop Words : 제거할 단어를 설정할 수 있습니다.  
+결과에 대한 개략적인 설명은 아래와 같으며, 자세한 설명은 본 [URL](https://ratsgo.github.io/machine%20learning/2017/04/08/apriori/)을 참고해주십시오.
 lhs(Left Hand Side), rhs(Right Hand Side) : lhs → rhs  
 support(지지도) : P(lhs ∩ rhs), lhs와 rhs가 동시에 나타는 확률, 높으면 상관관계가 있음  
 confidence(신뢰도) : P(rhs | lhs), lhs가 있을 때, rhs가 있을 확률, 높으면 상관관계가 있음  
