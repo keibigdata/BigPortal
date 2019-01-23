@@ -3,4 +3,4 @@
 ### 환경연구정보 서비스
 - [환경연구 데이터 지도(Open Data Map)](./demo/services/opendatamap.md)  
 - 환경연구 주제 동향 분석서비스  
-- 환경연구 키워드 동향 분석서비스  
+- [환경연구 키워드 동향 분석서비스](./demo/services/keywordnetwork.md)  
