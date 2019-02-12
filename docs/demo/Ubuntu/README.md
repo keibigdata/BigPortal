@@ -2,9 +2,13 @@
 - 시범서비스는 [우분투 리눅스](https://www.ubuntu.com/) 가 설치되어 있음  
 - 다운로드 : [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)  
 ### 접속방법
+- PuTTY 다운로드  
 ![SSH_01PuTTY-0_2.jpg](img/SSH_01PuTTY-0_2.jpg)  
+- PuTTY.exe 실행  
 ![SSH_01PuTTY-1.jpg](img/SSH_01PuTTY-1.jpg)  
-![SSH_01PuTTY-2.jpg](img/SSH_01PuTTY-2.jpg)  
+- 서버 주소와 포트를 변경  
+![SSH_01PuTTY-2.jpg](img/SSH_01PuTTY-2_2.jpg)  
+(정상 접속 시)  
 ![SSH_01PuTTY-3.jpg](img/SSH_01PuTTY-3.jpg)  
 ![SSH_01PuTTY-4.jpg](img/SSH_01PuTTY-4.jpg)  
 ![SSH_01PuTTY-5.jpg](img/SSH_01PuTTY-5.jpg)  
