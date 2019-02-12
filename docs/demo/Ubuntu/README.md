@@ -8,9 +8,9 @@
 ![SSH_01PuTTY-1.jpg](img/SSH_01PuTTY-1.jpg)  
 - 서버 주소와 포트를 변경  
 ![SSH_01PuTTY-2.jpg](img/SSH_01PuTTY-2_2.jpg)  
-(정상 접속 시) ID와 비밀번호를 입력 
-![SSH_01PuTTY-3.jpg](img/SSH_01PuTTY-3.jpg)
-(정상 로그인 시)
+(정상 접속 시) ID와 비밀번호를 입력  
+![SSH_01PuTTY-3.jpg](img/SSH_01PuTTY-3.jpg)  
+(정상 로그인 시)  
 ![SSH_01PuTTY-4.jpg](img/SSH_01PuTTY-4.jpg)  
 - 비밀번호 변경 후 사용  
 ![SSH_01PuTTY-5.jpg](img/SSH_01PuTTY-5.jpg)  
