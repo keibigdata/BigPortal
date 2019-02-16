@@ -10,5 +10,8 @@
 ![img/github_desktop_02-2.jpg](img/github_desktop_02-2.jpg)  
 - URL을 선택한다.  
 ![img/github_desktop_03-4.jpg](img/github_desktop_03-4.jpg)  
-  (저장소 위치와 다운받아서 저장할 위치를 변경한다.  
+  원격 저장소 위치와 다운받아서 저장할 위치를 변경한다.  
 ![img/github_desktop_03-7.jpg](img/github_desktop_03-7.jpg)  
+- 로컬 저장소을 업데이트한다.  
+![img/github_desktop_04-2.jpg](img/github_desktop_04-2.jpg)  
+  (로컬 저장소에 파일이 다운로드된다.)
