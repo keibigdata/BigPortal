@@ -11,4 +11,4 @@
 - URL을 선택한다.  
 ![img/github_desktop_03-4.jpg](img/github_desktop_03-4.jpg)  
   (저장소 위치와 다운받아서 저장할 위치를 변경한다.  
-![img/github_desktop_03-4.jpg](img/github_desktop_03-4.jpg)  
+![img/github_desktop_03-7.jpg](img/github_desktop_03-7.jpg)  
