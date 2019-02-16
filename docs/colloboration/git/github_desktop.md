@@ -3,4 +3,10 @@
 - 다운받아서 설치하자.
 ### 깃허브 데스크탑 실행하기
 - 실행하면, 아래와 같은 창이 보이며, Continue를 클릭하자.  
+  깃허브에 기여할지는 본인의 선택이다.  
 ![img/github_desktop_01-3.jpg](img/github_desktop_01-3.jpg)  
+### 
+(깃허브에 올려진 깃을 수정할 때)
+![img/github_desktop_02-2.jpg](img/github_desktop_02-2.jpg)  
+- URL을 선택한다.
+![img/github_desktop_03-4.jpg](img/github_desktop_03-4.jpg)  
