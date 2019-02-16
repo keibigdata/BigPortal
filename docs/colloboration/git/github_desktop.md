@@ -3,4 +3,4 @@
 - 다운받아서 설치하자.
 ### 깃허브 데스크탑 실행하기
 - 실행하면, 아래와 같은 창이 보이며, Continue를 클릭하자.  
-![img/github_desktop_01-2.jpg](img/github_desktop_01-2.jpg)  
+![img/github_desktop_01-3.jpg](img/github_desktop_01-3.jpg)  
