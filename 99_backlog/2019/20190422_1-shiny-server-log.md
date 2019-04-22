@@ -32,3 +32,10 @@ server {
   }
 }
 ~~~
+~~~
+......
+::ffff:192.168.110.52 - - [22/Apr/2019:02:24:05 +0000] "GET /odm/dt-core-1.10.16/css/jquery.dataTables.extra.css HTTP/1.1" 200 240 "http://data01.kei.re.kr:3838/odm/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+::ffff:192.168.110.52 - - [22/Apr/2019:02:24:05 +0000] "GET /odm/dt-core-1.10.16/js/jquery.dataTables.min.js HTTP/1.1" 200 - "http://data01.kei.re.kr:3838/odm/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+::ffff:192.168.110.52 - - [22/Apr/2019:02:24:05 +0000] "POST /odm/session/2fa81afe32d277a610696bdb37cd5051/dataobj/r1?w=&nonce=b6b8a92007435ae4 HTTP/1.1" 200 - "http://data01.kei.re.kr:3838/odm/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+::ffff:192.168.110.52 - - [22/Apr/2019:02:24:06 +0000] "POST /odm/session/2fa81afe32d277a610696bdb37cd5051/dataobj/r1?w=&nonce=b6b8a92007435ae4 HTTP/1.1" 200 - "http://data01.kei.re.kr:3838/odm/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+~~~
