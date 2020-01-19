@@ -1,0 +1,1 @@
+- [2019 구글 스터디 잼](https://sites.google.com/view/studyjamkr/home?authuser=0)
