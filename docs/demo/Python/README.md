@@ -98,8 +98,8 @@ c.NotebookApp.port = [사번]
     To access the notebook, open this file in a browser:
         file:///home/~/.local/share/jupyter/runtime/nbserver-28803-open.html
     Or copy and paste one of these URLs:
-        http://a.b.c.d:10999/?token=b
-     or http://127.0.0.1:10999/?token=b
+        http://a.b.c.d:x/?token=b
+     or http://127.0.0.1:x/?token=b
 
 (nlp) ~@DA03:~$ fg
 jupyter lab
@@ -107,8 +107,8 @@ jupyter lab
 Serving notebooks from local directory: /home/~
 0 active kernels
 Jupyter Notebook 6.2.0 is running at:
-http://a.b.c.d:10999/?token=b
- or http://127.0.0.1:10999/?token=b
+http://a.b.c.d:x/?token=b
+ or http://127.0.0.1:x/?token=b
 Shutdown this notebook server (y/[n])? y
 [C 16:57:30.186 LabApp] Shutdown confirmed
 [I 16:57:30.187 LabApp] Shutting down 0 kernels
